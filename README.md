@@ -2,6 +2,8 @@
 
 A modern, browser-based application for testing the AudioShake Lyrics Alignment API. Create time-aligned lyrics and visualize word-level synchronization with audio/video playback.
 
+[Live Demo](https://audioexplorer.github.io/Audioshake-Alignment-Demo/)
+
 ## Features
 
 - **API Integration**: Full AudioShake Tasks API support with secure key storage
@@ -180,7 +182,7 @@ No build process required. Simply edit files and refresh your browser.
 - Verify media is playing
 
 ## Resources
-
+- [Live Demo](https://audioexplorer.github.io/Audioshake-Alignment-Demo/)
 - [AudioShake API Documentation](https://docs.audioshake.ai)
 - [Create Demo Assets Tool](https://www.npmjs.com/package/create-demo-assets)
 - [AudioShake Dashboard](https://dashboard.audioshake.ai)
