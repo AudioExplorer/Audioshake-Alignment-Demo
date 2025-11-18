@@ -12,22 +12,63 @@ class AudioShakeAPI {
 
     // IndexedDB Setup
     async initDB() {
+        // Check if IndexedDB is available
+        if (!window.indexedDB) {
+            console.warn('IndexedDB not available - API key will not persist');
+            return Promise.resolve();
+        }
+
         return new Promise((resolve, reject) => {
+            let isUpgradeNeeded = false;
+
             const request = indexedDB.open(this.dbName, 1);
 
-            request.onerror = () => reject(request.error);
-
-            request.onsuccess = () => {
-                this.db = request.result;
+            request.onerror = (event) => {
+                console.error('IndexedDB error:', event.target.error);
+                // Don't reject - allow the app to work without persistence
+                this.db = null;
                 resolve();
-                // Call loadStoredKey after a tick to ensure DB is ready
-                setTimeout(() => this.loadStoredKey(), 0);
             };
 
-            request.onupgradeneeded = (e) => {
-                const db = e.target.result;
+            request.onblocked = () => {
+                console.warn('IndexedDB blocked - close other tabs using this database');
+            };
+
+            request.onsuccess = async (event) => {
+                this.db = request.result;
+
+                // Handle unexpected close
+                this.db.onversionchange = () => {
+                    this.db.close();
+                    console.warn('Database version changed - please reload the page');
+                };
+
+                this.db.onerror = (event) => {
+                    console.error('Database error:', event.target.error);
+                };
+
+                // If we just upgraded, wait for transaction to complete
+                if (isUpgradeNeeded) {
+                    // Wait for upgrade transaction to complete
+                    await new Promise(r => setTimeout(r, 100));
+                }
+
+                // Now load the stored key
+                await this.loadStoredKey();
+                resolve();
+            };
+
+            request.onupgradeneeded = (event) => {
+                isUpgradeNeeded = true;
+                const db = event.target.result;
+
+                // Create object store if it doesn't exist
                 if (!db.objectStoreNames.contains(this.storeName)) {
-                    db.createObjectStore(this.storeName);
+                    try {
+                        db.createObjectStore(this.storeName);
+                    } catch (err) {
+                        console.error('Error creating object store:', err);
+                    }
                 }
             };
         });
@@ -42,40 +83,68 @@ class AudioShakeAPI {
             }
         } catch (err) {
             console.error('Error loading stored key:', err);
+            // Don't throw - allow the app to continue without stored key
         }
     }
 
     async getFromDB(key) {
         await this.dbReady;
-        return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject(new Error('Database not initialized'));
-                return;
+
+        if (!this.db) {
+            return null; // Return null if DB not available
+        }
+
+        return new Promise((resolve) => {
+            try {
+                const tx = this.db.transaction([this.storeName], 'readonly');
+                const store = tx.objectStore(this.storeName);
+                const request = store.get(key);
+
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => {
+                    console.error('Error reading from DB:', request.error);
+                    resolve(null); // Return null on error instead of rejecting
+                };
+
+                tx.onerror = () => {
+                    console.error('Transaction error:', tx.error);
+                    resolve(null);
+                };
+            } catch (err) {
+                console.error('Error accessing DB:', err);
+                resolve(null);
             }
-
-            const tx = this.db.transaction([this.storeName], 'readonly');
-            const store = tx.objectStore(this.storeName);
-            const request = store.get(key);
-
-            request.onsuccess = () => resolve(request.result);
-            request.onerror = () => reject(request.error);
         });
     }
 
     async saveToDB(key, value) {
         await this.dbReady;
-        return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject(new Error('Database not initialized'));
-                return;
+
+        if (!this.db) {
+            console.warn('Database not available - value will not persist');
+            return; // Gracefully handle missing DB
+        }
+
+        return new Promise((resolve) => {
+            try {
+                const tx = this.db.transaction([this.storeName], 'readwrite');
+                const store = tx.objectStore(this.storeName);
+                const request = store.put(value, key);
+
+                request.onsuccess = () => resolve();
+                request.onerror = () => {
+                    console.error('Error saving to DB:', request.error);
+                    resolve(); // Don't reject - allow operation to continue
+                };
+
+                tx.onerror = () => {
+                    console.error('Transaction error:', tx.error);
+                    resolve();
+                };
+            } catch (err) {
+                console.error('Error accessing DB:', err);
+                resolve();
             }
-
-            const tx = this.db.transaction([this.storeName], 'readwrite');
-            const store = tx.objectStore(this.storeName);
-            const request = store.put(value, key);
-
-            request.onsuccess = () => resolve();
-            request.onerror = () => reject(request.error);
         });
     }
 
@@ -96,11 +165,29 @@ class AudioShakeAPI {
     async clearAPIKey() {
         await this.dbReady;
         this.apiKey = null;
+
         if (this.db) {
-            const tx = this.db.transaction([this.storeName], 'readwrite');
-            const store = tx.objectStore(this.storeName);
-            await store.delete('apiKey');
+            try {
+                const tx = this.db.transaction([this.storeName], 'readwrite');
+                const store = tx.objectStore(this.storeName);
+                const request = store.delete('apiKey');
+
+                await new Promise((resolve) => {
+                    request.onsuccess = () => resolve();
+                    request.onerror = () => {
+                        console.error('Error deleting from DB:', request.error);
+                        resolve(); // Don't fail the operation
+                    };
+                    tx.onerror = () => {
+                        console.error('Transaction error:', tx.error);
+                        resolve();
+                    };
+                });
+            } catch (err) {
+                console.error('Error clearing key from DB:', err);
+            }
         }
+
         this.emit('keyCleared');
     }
 
