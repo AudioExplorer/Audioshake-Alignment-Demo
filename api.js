@@ -7,7 +7,7 @@ class AudioShakeAPI {
         this.storeName = 'credentials';
         this.db = null;
         this.listeners = {};
-        this.initDB();
+        this.dbReady = this.initDB();
     }
 
     // IndexedDB Setup
@@ -45,6 +45,7 @@ class AudioShakeAPI {
     }
 
     async getFromDB(key) {
+        await this.dbReady;
         return new Promise((resolve, reject) => {
             if (!this.db) {
                 reject(new Error('Database not initialized'));
@@ -61,6 +62,7 @@ class AudioShakeAPI {
     }
 
     async saveToDB(key, value) {
+        await this.dbReady;
         return new Promise((resolve, reject) => {
             if (!this.db) {
                 reject(new Error('Database not initialized'));
@@ -91,6 +93,7 @@ class AudioShakeAPI {
     }
 
     async clearAPIKey() {
+        await this.dbReady;
         this.apiKey = null;
         if (this.db) {
             const tx = this.db.transaction([this.storeName], 'readwrite');

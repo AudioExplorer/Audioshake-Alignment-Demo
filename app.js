@@ -68,10 +68,11 @@ const elements = {
 };
 
 // Initialize App
-function init() {
+async function init() {
     setupTheme();
     setupEventListeners();
     setupAPIListeners();
+    await api.dbReady;
     checkAuth();
 }
 
@@ -92,14 +93,7 @@ function setupEventListeners() {
     // Navigation
     elements.authBtn.addEventListener('click', () => openModal('auth'));
     elements.themeToggle.addEventListener('click', toggleTheme);
-    // elements.consoleToggle.addEventListener('click', () => toggleSidebar(elements.sidebar.classList.contains('hidden')));
     elements.consoleToggle.addEventListener('click', () => toggleSidebar(!state.displaySidebar));
-    console.log("***** DisplaySidebar ***", state.displaySidebar)
-
-    // Sidebar UI 
-    // elements.sidebarToggle.addEventListener('click', () => toggleSidebar(elements.sidebar.classList.contains('hidden')));
-    // elements.sidebarOpenBtn.addEventListener('click', () => toggleSidebar(elements.sidebar.classList.contains('hidden')));
-
 
     elements.clearDebug.addEventListener('click', clearDebugOutput);
 
@@ -230,7 +224,6 @@ function showAPIStatus(message, type) {
 
 // Sidebar
 function toggleSidebar(open) {
-    console.log("***** toggleSidebar ***", open)
     if (open) {
         elements.sidebar.classList.remove('hidden');
         elements.consoleToggle.textContent = 'Close API Console';
@@ -238,15 +231,12 @@ function toggleSidebar(open) {
         elements.sidebar.classList.add('hidden');
         elements.consoleToggle.innerHTML = 'API Console';
     }
-    // update state
     state.displaySidebar = !state.displaySidebar
 }
 
 // Alignments Accordion
 function toggleAlignmentsAccordion(e) {
-    // Don't toggle if clicking on inputs or buttons
     if (e.target.closest('.alignments-controls')) return;
-
     elements.alignmentsHeader.classList.toggle('collapsed');
     elements.alignmentsBody.classList.toggle('collapsed');
 }
@@ -355,7 +345,6 @@ async function handleURLLoad() {
 }
 
 function loadDemoAssets() {
-    // Load from embedded demo-assets.json data
     const demoData = { "assets": [{ "src": "https://audioshake.s3.us-east-1.amazonaws.com/demo-assets/Chupe-Jaae-English.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4HDN2YLZIASF33OU%2F20251117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251117T171433Z&X-Amz-Expires=43200&X-Amz-Signature=e68223a889676255fc3514426c84e155239d03b859c48c0d70be8430ce61238d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject", "title": "Chupe-Jaae-English.mp3", "format": "audio/mpeg" }, { "src": "https://audioshake.s3.us-east-1.amazonaws.com/demo-assets/Chupe-Jaae-English.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4HDN2YLZIASF33OU%2F20251117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251117T171433Z&X-Amz-Expires=43200&X-Amz-Signature=54aad0f9ae90892f1c65b54b6d71cc1272f693d9b84adcf9e3dd78b860534e6e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject", "title": "Chupe-Jaae-English.mp4", "format": "video/mp4" }] };
     loadAssets(demoData.assets);
 }
@@ -394,16 +383,12 @@ function getFormatLabel(format) {
 function selectAsset(index) {
     state.selectedAsset = state.assets[index];
 
-    // Update UI
     document.querySelectorAll('.asset-card').forEach((card, i) => {
         card.classList.toggle('selected', i === index);
     });
 
-    // Load media
     loadMedia(state.selectedAsset);
     elements.playerSection.style.display = 'block';
-
-    // Load alignments for this asset
     loadAlignments();
 }
 
@@ -440,7 +425,6 @@ async function createAlignment() {
         const task = await api.createAlignmentTask(state.selectedAsset.src);
         addDebugEntry(task, 'success');
 
-        // Poll for completion
         showToast('Processing... This may take a few minutes');
         const completedTask = await api.pollTask(task.id, (update) => {
             addDebugEntry(update, 'info');
@@ -449,7 +433,6 @@ async function createAlignment() {
         showToast('Alignment completed!');
         loadAlignments();
 
-        // Auto-select the new alignment - find alignment target
         const alignmentTarget = completedTask.targets?.find(t => t.model === 'alignment');
         if (alignmentTarget?.output?.length > 0) {
             const alignmentOutput = alignmentTarget.output.find(o => o.format === 'json');
@@ -471,14 +454,12 @@ async function loadAlignments() {
 
     try {
         const tasks = await api.listTasks({ skip, take });
-        // Filter for alignment tasks
         state.alignments = Array.isArray(tasks) ? tasks.filter(task =>
             task.targets?.some(t => t.model === 'alignment')
         ) : [];
         renderAlignments();
         elements.alignmentsSection.style.display = 'block';
 
-        // Apply filter if exists
         if (elements.filterSource.value) {
             filterAlignments();
         }
@@ -502,7 +483,6 @@ function renderAlignments() {
         const item = document.createElement('div');
         item.className = 'alignment-item';
 
-        // Get source URL filename
         const urlParts = (alignmentTarget.url || '').split('/');
         const filename = urlParts[urlParts.length - 1].split('?')[0];
 
@@ -564,7 +544,6 @@ function selectAlignment(index) {
         return;
     }
 
-    // Find the JSON output
     const alignmentOutput = alignmentTarget.output.find(o =>
         o.format === 'json' || o.type?.includes('json')
     );
@@ -575,10 +554,8 @@ function selectAlignment(index) {
         return;
     }
 
-    // Also load the associated media if available
     const taskUrl = alignmentTarget.url;
     if (taskUrl && state.assets.length === 0) {
-        // If no assets loaded, create a temporary asset from the task URL
         loadMedia({ src: taskUrl, title: 'Task Media', format: 'audio/mpeg' });
         elements.playerSection.style.display = 'block';
     }
@@ -601,17 +578,13 @@ async function loadAlignmentData(alignmentUrl) {
 function renderLyrics(alignmentData) {
     elements.lyricsContainer.innerHTML = '';
 
-    // Handle different alignment JSON structures
     let lines = [];
 
     if (alignmentData.lines) {
-        // AudioShake format: { lines: [{ words: [...] }] }
         lines = alignmentData.lines;
     } else if (alignmentData.words) {
-        // Flat words array - group into one line
         lines = [{ words: alignmentData.words }];
     } else if (alignmentData.segments) {
-        // Segments format
         lines = alignmentData.segments;
     } else if (Array.isArray(alignmentData)) {
         lines = [{ words: alignmentData }];
@@ -625,7 +598,6 @@ function renderLyrics(alignmentData) {
 
     let totalWords = 0;
 
-    // Render each line
     lines.forEach((lineData) => {
         const words = lineData.words || [];
         if (words.length === 0) return;
@@ -673,7 +645,6 @@ function updateLyricHighlight() {
 
         if (currentTime >= start && currentTime <= end) {
             word.classList.add('active');
-            // Scroll into view
             word.scrollIntoView({ behavior: 'smooth', block: 'center' });
         } else {
             word.classList.remove('active');
