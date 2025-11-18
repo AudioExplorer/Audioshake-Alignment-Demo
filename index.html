@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioShake Alignment Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-left">
+                <img src="Audioshake-Developers-logo-Light-theme.png" alt="AudioShake" class="logo">
+                <h1 class="nav-title">Lyrics Alignment Demo</h1>
+            </div>
+            <div class="nav-right">
+
+                <button id="authBtn" class="btn-primary">
+                    <span class="icon">🔑</span>
+                    Authorize
+                </button>
+
+                <button id="themeToggle" class="btn-icon" title="Toggle Theme">
+                    <span class="icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2>API Console</h2>
+                <!-- <button id="consoleToggle" class="btn-icon">
+                    <span class="icon">✕</span>
+                </button> -->
+            </div>
+
+            <div class="sidebar-content">
+                <!-- API Methods -->
+                <div class="section">
+                    <h3>API Methods</h3>
+                    <div class="api-methods">
+                        <button class="method-btn" data-method="createTask">Create Task</button>
+                        <button class="method-btn" data-method="getTask">Get Task</button>
+                        <button class="method-btn" data-method="listTasks">List Tasks</button>
+                    </div>
+                </div>
+
+                <!-- Debug Output -->
+                <div class="section">
+                    <div class="section-header">
+                        <h3>Debug Output</h3>
+                        <button id="clearDebug" class="btn-text">Clear</button>
+                    </div>
+                    <div id="debugOutput" class="debug-output"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+
+            <!-- Tools  -->
+            <section class="card">
+                <div class="card-header">
+                    <!-- <h2>Tools</h2> -->
+                    <div class="tools-left">
+                        <button id="consoleToggle" class="btn-secondary">
+                            API Console
+                        </button>
+                        <button id="codeBtn" class="btn-secondary">
+                            <span class="icon">{ }</span>
+                            View Code
+                        </button>
+                    </div>
+
+                </div>
+                <div class="card-body">
+                    <div class="asset-loader">
+                        <div class="upload-area" id="uploadArea">
+                            <div class="upload-content">
+                                <span class="icon large">📁</span>
+                                <p>Drop demo-assets.json here or click to browse</p>
+                                <input type="file" id="fileInput" accept=".json" hidden>
+                            </div>
+                        </div>
+                        <div class="or-divider">OR</div>
+                        <div class="url-input-group">
+                            <input type="url" id="urlInput" placeholder="Enter demo-assets.json URL" class="input">
+                            <button id="loadUrlBtn" class="btn-primary">Load</button>
+                        </div>
+                        <button id="loadDemoBtn" class="btn-text">Load Demo Assets</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Asset Loader -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>Load Assets</h2>
+                    <!-- <button id="codeBtn" class="btn-secondary">
+                        <span class="icon">{ }</span>
+                        View Code
+                    </button> -->
+                </div>
+                <div class="card-body">
+                    <div class="asset-loader">
+                        <div class="upload-area" id="uploadArea">
+                            <div class="upload-content">
+                                <span class="icon large">📁</span>
+                                <p>Drop demo-assets.json here or click to browse</p>
+                                <input type="file" id="fileInput" accept=".json" hidden>
+                            </div>
+                        </div>
+                        <div class="or-divider">OR</div>
+                        <div class="url-input-group">
+                            <input type="url" id="urlInput" placeholder="Enter demo-assets.json URL" class="input">
+                            <button id="loadUrlBtn" class="btn-primary">Load</button>
+                        </div>
+                        <button id="loadDemoBtn" class="btn-text">Load Demo Assets</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Assets Grid -->
+            <section class="card" id="assetsSection" style="display: none;">
+                <div class="card-header">
+                    <h2>Demo Assets</h2>
+                    <span id="assetCount" class="badge">0 assets</span>
+                </div>
+                <div class="card-body">
+                    <div id="assetsGrid" class="assets-grid"></div>
+                </div>
+            </section>
+
+            <!-- Media Player -->
+            <section class="card" id="playerSection" style="display: none;">
+                <div class="card-header">
+                    <h2>Media Player</h2>
+                    <div class="player-controls">
+                        <button id="createAlignmentBtn" class="btn-primary">Create Alignment</button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="player-container">
+                        <div class="media-wrapper">
+                            <video id="mediaPlayer" controls></video>
+                            <audio id="audioPlayer" controls></audio>
+                        </div>
+                        <div class="lyrics-container" id="lyricsContainer">
+                            <div class="lyrics-placeholder">
+                                Select an alignment or create a new one to view synced lyrics
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Alignments List -->
+            <section class="card" id="alignmentsSection" style="display: none;">
+                <div class="card-header accordion-header" id="alignmentsHeader">
+                    <div class="accordion-title">
+                        <span class="accordion-icon">▼</span>
+                        <h2>Alignments</h2>
+                    </div>
+                    <div class="alignments-controls">
+                        <input type="text" id="filterSource" placeholder="Filter by source..." class="input-small">
+                        <input type="number" id="skipInput" placeholder="Skip" class="input-small" value="0" min="0">
+                        <input type="number" id="takeInput" placeholder="Take" class="input-small" value="100" min="1"
+                            max="100">
+                        <button id="refreshAlignments" class="btn-text">Refresh</button>
+                    </div>
+                </div>
+                <div class="card-body" id="alignmentsBody">
+                    <div id="alignmentsList" class="alignments-list"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Sidebar Toggle Button (Mobile) -->
+    <!-- <button id="sidebarOpenBtn" class="sidebar-open-btn">
+        <span class="icon">☰</span>
+    </button> -->
+
+    <!-- Auth Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>API Authorization</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Enter your AudioShake API key. Get your key at <a href="https://dashboard.audioshake.ai"
+                        target="_blank">dashboard.audioshake.ai</a></p>
+                <input type="password" id="apiKeyInput" placeholder="Your API Key" class="input">
+                <div class="api-status" id="apiStatus"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="saveApiKey" class="btn-primary">Save</button>
+                <button class="modal-close btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code Modal -->
+    <div id="codeModal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h2>API Code Examples</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="code-tabs">
+                    <button class="code-tab active" data-lang="javascript">JavaScript</button>
+                    <button class="code-tab" data-lang="curl">cURL</button>
+                    <button class="code-tab" data-lang="python">Python</button>
+                </div>
+                <div class="code-container">
+                    <button class="copy-btn" id="copyCodeBtn">Copy</button>
+                    <pre><code id="codeContent"></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Status Toast -->
+    <div id="taskToast" class="toast"></div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
