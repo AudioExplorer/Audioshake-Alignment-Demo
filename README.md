@@ -2,7 +2,7 @@
 
 A modern, browser-based application for testing the AudioShake Lyrics Alignment API. Create time-aligned lyrics and visualize word-level synchronization with audio/video playback.
 
-[Live Demo](https://audioexplorer.github.io/Audioshake-Alignment-Demo/)
+[Live Demo](https://audioexplorer.github.io/AudioShake-Alignment-Demo/)
 
 ## Features
 
