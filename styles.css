@@ -87,6 +87,11 @@ body {
 .logo {
     height: 32px;
     width: auto;
+    content: url('Audioshake-Developers-logo-Light-theme.png');
+}
+
+[data-theme="dark"] .logo {
+    content: url('Audioshake-Developers-logo-Dark-theme.png');
 }
 
 .nav-title {
@@ -277,6 +282,7 @@ body {
     text-align: left;
     font-size: 0.875rem;
     font-weight: 500;
+    color: var(--text-primary);
     cursor: pointer;
     transition: all var(--transition);
 }

@@ -193,6 +193,7 @@ function setupAPIListeners() {
 // Auth
 function checkAuth() {
     if (api.hasAPIKey()) {
+        document.getElementById('apiKeyInput').value = api.getAPIKey()
         updateAuthButton(true);
     }
 }
@@ -766,6 +767,9 @@ function updateLyricHighlight() {
 function openModal(type) {
     if (type === 'auth') {
         elements.authModal.classList.add('active');
+        let key = api.getAPIKey()
+        elements.apiKeyInput.value = (key != undefined) ? key : "";
+        // elements.apiKeyInput.type = "text" //debug key value
         elements.apiKeyInput.focus();
     } else if (type === 'code') {
         elements.codeModal.classList.add('active');
