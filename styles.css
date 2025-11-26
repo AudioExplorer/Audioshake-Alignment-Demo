@@ -25,6 +25,23 @@
     visibility: hidden;
 }
 
+#intro ul,
+#intro ol {
+    padding-left: 1.5rem;
+    margin-left: 0;
+}
+
+#intro li {
+    margin: 0.25rem 0;
+}
+
+.intro-section {
+    padding: 20px;
+    margin-left: 2em;
+}
+
+
+
 
 /* CSS for always-editable lyrics with playback alignment */
 
@@ -880,10 +897,10 @@ body {
 
 .toast {
     position: fixed;
-    bottom: 24px;
-    right: 24px;
+    top: 24px;
+    right: 340px;
     padding: 12px 20px;
-    background: var(--bg-primary);
+    background: var(--bg-secondary);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: 0 4px 12px var(--shadow-lg);
@@ -942,4 +959,69 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-secondary);
+}
+
+/* Remove Chrome/Safari vertical gap between summary and first content node */
+details>summary+* {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Style all detail bodies consistently */
+details>summary~* {
+    display: block;
+    padding: 0.25rem 1.5rem 0.75rem 1.5rem;
+    margin: 0 !important;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Bullet lists */
+details ul,
+details ol {
+    list-style: disc;
+    margin-left: 2rem;
+    padding-left: 0;
+}
+
+details li {
+    margin: 0.25rem 0;
+}
+
+/* Kill stray paragraphs */
+details p {
+    margin: 0.3rem 0;
+}
+
+/* Kill stray <br> that Showdown sometimes emits */
+details>br,
+details br:first-child {
+    display: none;
+}
+
+/* Universal callout style */
+blockquote {
+    border-left: 4px solid #4a90e2;
+    /* blue highlight */
+    background: #f6faff;
+    /* subtle blue-ish background */
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    color: #333;
+}
+
+/* Strong label on first line */
+blockquote strong {
+    color: #1b4f8c;
+}
+
+/* Handle multiline inner <p> */
+blockquote p {
+    margin: 0.4rem 0 0 0;
+}
+
+/* Tighten the first paragraph after label */
+blockquote p:first-child {
+    margin-top: 0;
 }

@@ -44,9 +44,9 @@
                 <div class="section">
                     <h3>API Methods</h3>
                     <div class="api-methods">
-                        <button class="method-btn" data-method="createTask">Create Task</button>
-                        <button class="method-btn" data-method="getTask">Get Task</button>
                         <button class="method-btn" data-method="listTasks">List Tasks</button>
+                        <button class="method-btn" data-method="getTask">Get Task</button>
+                        <button class="method-btn" data-method="createTask">Create Task</button>
                     </div>
                 </div>
 
@@ -75,28 +75,24 @@
                             <span class="icon">{ }</span>
                             View Code
                         </button>
+                        <button id="faqBtn" class="btn-secondary">
+                            FAQs
+                        </button>
+                        <button id="caseStudyBtn" class="btn-secondary">
+                            AudioShake Case Studies
+                        </button>
                     </div>
 
                 </div>
                 <div class="card-body">
-                    <div class="">
-                        <p><b>We demontrate how to create a alignment JSON file from an audio asset with vocals, dialog
-                                or
-                                lyrics. </b></p>
-                        <p>Load Assets</p>
-                        <p>Select Asset to Play</p>
-                        <p>Create Alignment or Select Existing Alignment from Alignments List</p>
-                    </div>
+                    <!-- Into.md loaded -->
+                    <div id="intro"></div>
                 </div>
             </section>
             <!-- Asset Loader -->
             <section class="card">
                 <div class="card-header">
-                    <h2>Load Assets</h2>
-                    <!-- <button id="codeBtn" class="btn-secondary">
-                        <span class="icon">{ }</span>
-                        View Code
-                    </button> -->
+                    <h2>Load Demo Assets</h2>
                 </div>
                 <div class="card-body">
                     <div hidden>
@@ -106,20 +102,19 @@
                         </div>
                     </div>
                     <div class="note">
-                        <button id="loadDemoBtn" class="btn-text">Load Demo Assets</button>
+                        <button id="loadDemoBtn" class="btn-text">
+                            <h2> Load AudioShake Demo Assets</h2>
+                        </button>
+
                     </div>
 
                     <div class="or-divider">OR</div>
 
                     <!-- Own assets -->
                     <div class="note">
-                        <p>
-                            Create asset from your source
-                        <p>
+                        <h2> Create asset from your source URL</h2>
+
                         <div class="url-input-group">
-                            <!-- <div class="left">
-                                <input type="text" id="assetTitleInput" placeholder="Title" class="input">
-                            </div> -->
                             <input type="url" id="assetSourceURLInput"
                                 placeholder="Enter source url from a publically accessabile url or pre-signed url "
                                 class="input">
@@ -131,21 +126,19 @@
 
                     <div class="or-divider">OR</div>
                     <div class="note">
-                        <p>
-                            Learn how to prepare your demo data using our <a
-                                href="https://www.npmjs.com/package/create-demo-assets" target="_blank">Create Demo
-                                Assets tool</a>.
-                        <p>
+                        <h2>Bulk Load Demo Assets</h2>
                     </div>
                     <div class="asset-loader">
                         <div class="upload-area" id="uploadArea">
                             <div class="upload-content">
                                 <span class="icon large">📁</span>
-                                <p>Drop demo-assets.json here or click to browse</p>
+                                <p>Drop demo-assets.json bulk assets data file here or click to browse</p>
                                 <input type="file" id="fileInput" accept=".json" hidden>
                             </div>
                         </div>
                     </div>
+
+
             </section>
 
             <!-- Assets Grid -->
@@ -162,7 +155,7 @@
             <!-- Media Player -->
             <section class="card" id="playerSection" style="display: none;">
                 <div class="card-header">
-                    <h2>Media Player</h2>
+                    <h2>Align Media</h2>
                     <div class="player-controls">
                         <button id="createAlignmentBtn" class="btn-primary">Create Alignment</button>
                     </div>
@@ -218,6 +211,23 @@
 
 
 
+    <!-- faqModal Modal -->
+    <div id="faqModal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h2>Demo Faqs</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="faqContent"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Auth Modal -->
     <div id="authModal" class="modal">
         <div class="modal-content">
@@ -263,6 +273,9 @@
 
     <!-- Task Status Toast -->
     <div id="taskToast" class="toast"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/showdown-prettify/dist/showdown-prettify.min.js"></script>
 
     <script src="api.js"></script>
     <script src="code.js"></script>

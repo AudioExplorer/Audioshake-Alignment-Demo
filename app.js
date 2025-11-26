@@ -18,6 +18,9 @@ const elements = {
     authBtn: document.getElementById('authBtn'),
     themeToggle: document.getElementById('themeToggle'),
     consoleToggle: document.getElementById('consoleToggle'),
+    caseStudyBtn: document.getElementById('caseStudyBtn'),
+    faqBtn: document.getElementById('faqBtn'),
+    faqContent: document.getElementById('faqContent'),
 
     // Sidebar
     sidebar: document.getElementById('sidebar'),
@@ -33,7 +36,6 @@ const elements = {
     loadUrlBtn: document.getElementById('loadUrlBtn'),
     loadDemoBtn: document.getElementById('loadDemoBtn'),
 
-    // assetTitleInput: document.getElementById('assetTitleInput'),
     assetSourceURLInput: document.getElementById('assetSourceURLInput'),
     addAssetBtn: document.getElementById('addAssetBtn'),
 
@@ -66,6 +68,8 @@ const elements = {
 
     // Modals
     authModal: document.getElementById('authModal'),
+    faqModal: document.getElementById('faqModal'),
+    caseStudyModal: document.getElementById('caseStudyModal'),
     apiKeyInput: document.getElementById('apiKeyInput'),
     saveApiKey: document.getElementById('saveApiKey'),
     apiStatus: document.getElementById('apiStatus'),
@@ -78,8 +82,43 @@ const elements = {
     toast: document.getElementById('taskToast')
 };
 
+async function loadIntro() {
+    const response = await fetch('./intro.md');   // load file
+    const markdown = await response.text();       // read raw MD
+
+    // custom ext for target = _blank
+    showdown.extension('targetBlank', function () {
+        return [{
+            type: 'output',
+            regex: /<a\s+href="([^"]*)"/g,
+            replace: '<a href="$1" target="_blank" rel="noopener noreferrer"'
+        }];
+    });
+
+
+    const converter = new showdown.Converter({
+        extensions: ['targetBlank'],
+        rawHeaderId: true,
+        simpleLineBreaks: true,
+        parseInlineHTML: true,
+        literalMidWordUnderscores: true,
+        backslashEscapesHTMLTags: true,
+
+        // THIS IS THE IMPORTANT ONE:
+        noForcedInnerParagraph: true,
+
+    });
+    converter.setFlavor('github');
+    const html = converter.makeHtml(markdown);    // MD → HTML
+
+    document.getElementById('intro').innerHTML = html;
+}
+
+
 // Initialize App
 async function init() {
+    loadIntro();
+    toggleSidebar(false);
     setupTheme();
     setupEventListeners();
     setupAPIListeners();
@@ -103,7 +142,7 @@ function toggleTheme() {
 // Event Listeners
 function setupEventListeners() {
     // Navigation
-    elements.authBtn.addEventListener('click', () => openModal('auth'));
+    elements.authBtn.addEventListener('click', async () => await openModal('auth'));
     elements.themeToggle.addEventListener('click', toggleTheme);
     elements.consoleToggle.addEventListener('click', () => toggleSidebar(!state.displaySidebar));
 
@@ -117,6 +156,14 @@ function setupEventListeners() {
             executeAPIMethod(method);
         });
     });
+
+
+
+    // case study
+    elements.caseStudyBtn.addEventListener('click', () => {
+        window.open("https://www.audioshake.ai/use-cases/lyric-transcription", "_blank");
+    });
+
 
     // Asset Loader
     elements.uploadArea.addEventListener('click', () => elements.fileInput.click());
@@ -164,8 +211,10 @@ function setupEventListeners() {
 
     // Modals
     elements.saveApiKey.addEventListener('click', saveAPIKey);
-    elements.codeBtn.addEventListener('click', () => openModal('code'));
+    elements.codeBtn.addEventListener('click', async () => await openModal('code'));
     elements.copyCodeBtn.addEventListener('click', copyCode);
+    //faqBtn
+    elements.faqBtn.addEventListener('click', async () => await openModal('faq'));
 
     document.querySelectorAll('.modal-close').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -299,7 +348,7 @@ function clearDebugOutput() {
 async function executeAPIMethod(method) {
     if (!api.hasAPIKey()) {
         showToast('Please authorize first');
-        openModal('auth');
+        await openModal('auth');
         return;
     }
 
@@ -514,7 +563,7 @@ function loadMedia(asset) {
 // Alignments
 async function createAlignment() {
     if (!api.hasAPIKey()) {
-        openModal('auth');
+        await openModal('auth');
         return;
     }
 
@@ -567,7 +616,16 @@ async function loadAlignments() {
             filterAlignments();
         }
     } catch (err) {
-        console.error('Error loading alignments:', err);
+        if (String(err.message).includes('403')) {
+            showToast(
+                'Alignment data is no longer available. Results are only stored for 72 hours — please re-run the alignment.',
+                'error'
+            );
+        } else {
+            showToast(`Error loading alignment: ${err.message}`, 'error');
+        }
+
+        console.error(err);
     }
 }
 
@@ -741,8 +799,14 @@ async function loadAlignmentData(alignmentUrl) {
         addDebugEntry({ success: 'Alignment data loaded', structure: Object.keys(data) }, 'success');
         renderLyrics(data);
     } catch (err) {
-        showToast(`Error loading alignment: ${err.message}`);
-        addDebugEntry({ error: err.message, url: alignmentUrl }, 'error');
+        if (String(err).includes('403')) {
+            showToast(
+                'Alignment data is no longer available. Results are only stored for 72 hours — please re-run the alignment.');
+        } else {
+            showToast(`Error loading alignment: ${err}`);
+        }
+
+        console.error(err);
     }
 }
 
@@ -951,18 +1015,72 @@ function updateLyricHighlight() {
     });
 }
 
+
+//helper 
+function stripEmptyTextNodes(root) {
+    [...root.childNodes].forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE && !node.textContent.trim()) {
+            root.removeChild(node);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+            stripEmptyTextNodes(node);
+        }
+    });
+}
 // Modals
-function openModal(type) {
+async function openModal(type) {
+    console.log(type)
     if (type === 'auth') {
         elements.authModal.classList.add('active');
         let key = api.getAPIKey()
         elements.apiKeyInput.value = (key != undefined) ? key : "";
-        // elements.apiKeyInput.type = "text" //debug key value
+        elements.apiKeyInput.type = "text" //debug key value
         elements.apiKeyInput.focus();
     } else if (type === 'code') {
         elements.codeModal.classList.add('active');
         updateCodeExample('javascript');
+    } else if (type === 'faq') {
+        elements.faqModal.classList.add('active');
+        const response = await fetch("./faq.md");   // load file
+        const markdown = await response.text();       // read raw MD
+        // // faqModal, faqContent 
+        console.log(markdown)
+        // read raw MD
+        // custom ext for target = _blank
+        showdown.extension('targetBlank', function () {
+            return [{
+                type: 'output',
+                regex: /<a\s+href="([^"]*)"/g,
+                replace: '<a href="$1" target="_blank" rel="noopener noreferrer"'
+            }];
+        });
+
+        const converter = new showdown.Converter({
+            extensions: ['targetBlank'],
+            rawHeaderId: true,
+            simpleLineBreaks: true,
+            parseInlineHTML: true,
+            literalMidWordUnderscores: true,
+            backslashEscapesHTMLTags: true,
+
+            // THIS IS THE IMPORTANT ONE:
+            noForcedInnerParagraph: true,
+
+        });
+
+        converter.setFlavor('github');
+        // const html = converter.makeHtml(markdown);    // MD → HTML
+        // console.log(html)
+        // elements.faqContent.innerHTML = html
+        const wrapper = document.createElement("div");
+        html = converter.makeHtml(markdown);
+
+        html = html.replace(/"/g, "");
+        wrapper.innerHTML = html
+        stripEmptyTextNodes(wrapper);
+
+        elements.faqContent.innerHTML = wrapper.innerHTML;
     }
+
 }
 
 function closeModal(type) {
@@ -970,6 +1088,8 @@ function closeModal(type) {
         elements.authModal.classList.remove('active');
     } else if (type === 'code') {
         elements.codeModal.classList.remove('active');
+    } else if (type === 'faq') {
+        elements.faqModal.classList.remove('active');
     }
 }
 
