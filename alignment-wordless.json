@@ -1,0 +1,3663 @@
+{
+  "text": "Yeah\n\nSometimes I can't explain myself 'cause I can't find the words\nBut she know what I'm tryna say, it's like my mind is hers\nI have no jewels and I can't afford the finest furs\nBut from now on, I can promise that what's mine is hers\nAnd that shit's on some real shit, I swear she has this ill gift\nShe see someone experience emotion and she feels it\nThat goes for sadness and happiness\nBecause when I'm happy, I can tell that's when she's happiest, huh\nAnd she supports me on another level\nShe pushes me to reach for the stars and never settle\nNow our relationship is far from perfect, but it's workin'\nI sacrificed a lot on purpose and it's worth it\n\nNow I can sing you a song or write you a rhyme\nBut I just can't find the words\nI done tried to write you a song a thousand times\nBut in my mind, this is all I've heard\n\nThis is love, it's love, it's love, it's love, it's love\nThis is love, it's love, it's love, it's love, it's love\nNow this love is far from perfect\nBut this love, it leaves me worthless\nSo now all that I can say is this is love\n\nYeah, sometimes I can't explain myself 'cause I can't find the words\nShe got me feelin' high, without me tryin', I'm kinda irked\nSometimes I get the urge and think that she should have my baby\nBut I don't wanna think too crazy, we're too young\nBut when the time comes, I wouldn't choose no other\nTo bear my seed, I know she'll be a beautiful mother\nA beautiful person is what she is\nAnd I can't wait for us to grow together through the years\nI can't wait for us to mold each other and co-head\nAnd we already had to hold each other through some tears\nWe know that anything can happen but to lose the fear\nDon't listen to that negativity some choose to hear, for real\n\nNow I can sing you a song or write you a rhyme\nBut I just can't find the words\nLied and tried to write you a song\nA thousand times but in my mind this is all I heard\n\nThis is love, it's love, it's love, it's love, it's love\nThis is love, it's love, it's love, it's love, it's love\nNow this love is far from perfect\nBut this love, it leaves me worthless\nSo now all that I can say is this is love\n\nNow I've been tryna write this song for a long time\nIt was either the wrong place or the wrong time\nBut now it's alright, was finally able to make this\nWorked on it all night, you inspired me to greatness\nEverything I do, I do with you in mind\nSo every song I make, I'm making it for you and I\nTried to write you a song just the other day\nA song about me and you, all I could think to say\nBut this is love\n\nThis is love, it's love, it's love, it's love, it's love\nThis is love, it's love, it's love, it's love, it's love\nNow this love is far from perfect\nBut this love, it leaves me worthless\nSo now all that I can say is this is love\n\nNow I can sing you a song, or write you a rhyme\nBut I just can't find the words\nI done tried to write you a song a thousand times\nBut in my mind, this is all I heard\n\nThis is love, it's love, it's love, it's love, it's love\nThis is love, it's love, it's love, it's love, it's love\nNow this love is far from perfect\nBut this love, it leaves me worthless\n",
+  "lines": [
+    {
+      "start": 1.3400298213875488,
+      "end": 1.6400364978175972,
+      "text": "Yeah\n\n",
+      "words": [
+        {
+          "start": 1.3400298213875488,
+          "end": 1.6400364978175972,
+          "text": "Yeah\n\n"
+        }
+      ]
+    },
+    {
+      "start": 3.300073440730531,
+      "end": 6.120136199172984,
+      "text": "Sometimes I can't explain myself 'cause I can't find the words\n",
+      "words": [
+        {
+          "start": 3.300073440730531,
+          "end": 3.7000823426372618,
+          "text": "Sometimes "
+        },
+        {
+          "start": 3.740083232827935,
+          "end": 3.820085013209281,
+          "text": "I "
+        },
+        {
+          "start": 3.860085903399954,
+          "end": 4.06009035435332,
+          "text": "can't "
+        },
+        {
+          "start": 4.100091244543993,
+          "end": 4.440098811164714,
+          "text": "explain "
+        },
+        {
+          "start": 4.480099701355387,
+          "end": 4.820107267976109,
+          "text": "myself "
+        },
+        {
+          "start": 4.860108158166781,
+          "end": 5.000111273834138,
+          "text": "'cause "
+        },
+        {
+          "start": 5.04011216402481,
+          "end": 5.140114389501494,
+          "text": "I "
+        },
+        {
+          "start": 5.180115279692166,
+          "end": 5.360119285550195,
+          "text": "can't "
+        },
+        {
+          "start": 5.420120620836205,
+          "end": 5.580124181598897,
+          "text": "find "
+        },
+        {
+          "start": 5.6201250717895705,
+          "end": 5.700126852170917,
+          "text": "the "
+        },
+        {
+          "start": 5.760128187456926,
+          "end": 6.120136199172984,
+          "text": "words\n"
+        }
+      ]
+    },
+    {
+      "start": 6.38014198541236,
+      "end": 9.120202963473467,
+      "text": "But she know what I'm tryna say, it's like my mind is hers\n",
+      "words": [
+        {
+          "start": 6.38014198541236,
+          "end": 6.480144210889042,
+          "text": "But "
+        },
+        {
+          "start": 6.520145101079716,
+          "end": 6.6801486618424075,
+          "text": "she "
+        },
+        {
+          "start": 6.720149552033081,
+          "end": 6.880153112795774,
+          "text": "know "
+        },
+        {
+          "start": 6.90015355789111,
+          "end": 7.0401566735584655,
+          "text": "what "
+        },
+        {
+          "start": 7.060157118653803,
+          "end": 7.180159789225821,
+          "text": "I'm "
+        },
+        {
+          "start": 7.260161569607168,
+          "end": 7.5801686911325525,
+          "text": "tryna "
+        },
+        {
+          "start": 7.620169581323226,
+          "end": 7.820174032276591,
+          "text": "say, "
+        },
+        {
+          "start": 7.860174922467264,
+          "end": 8.00017803813462,
+          "text": "it's "
+        },
+        {
+          "start": 8.040178928325293,
+          "end": 8.18018204399265,
+          "text": "like "
+        },
+        {
+          "start": 8.220182934183322,
+          "end": 8.34018560475534,
+          "text": "my "
+        },
+        {
+          "start": 8.380186494946015,
+          "end": 8.58019094589938,
+          "text": "mind "
+        },
+        {
+          "start": 8.620191836090052,
+          "end": 8.76019495175741,
+          "text": "is "
+        },
+        {
+          "start": 8.780195396852745,
+          "end": 9.120202963473467,
+          "text": "hers\n"
+        }
+      ]
+    },
+    {
+      "start": 9.400209194808179,
+      "end": 12.100269282678614,
+      "text": "I have no jewels and I can't afford the finest furs\n",
+      "words": [
+        {
+          "start": 9.400209194808179,
+          "end": 9.480210975189525,
+          "text": "I "
+        },
+        {
+          "start": 9.500211420284861,
+          "end": 9.68021542614289,
+          "text": "have "
+        },
+        {
+          "start": 9.720216316333563,
+          "end": 9.880219877096255,
+          "text": "no "
+        },
+        {
+          "start": 9.960221657477602,
+          "end": 10.300229224098324,
+          "text": "jewels "
+        },
+        {
+          "start": 10.360230559384332,
+          "end": 10.460232784861017,
+          "text": "and "
+        },
+        {
+          "start": 10.480233229956353,
+          "end": 10.580235455433035,
+          "text": "I "
+        },
+        {
+          "start": 10.640236790719046,
+          "end": 10.860241686767747,
+          "text": "can't "
+        },
+        {
+          "start": 10.880242131863083,
+          "end": 11.200249253388469,
+          "text": "afford "
+        },
+        {
+          "start": 11.220249698483805,
+          "end": 11.320251923960488,
+          "text": "the "
+        },
+        {
+          "start": 11.380253259246498,
+          "end": 11.700260380771882,
+          "text": "finest "
+        },
+        {
+          "start": 11.780262161153228,
+          "end": 12.100269282678614,
+          "text": "furs\n"
+        }
+      ]
+    },
+    {
+      "start": 12.360275068917987,
+      "end": 15.080335601883759,
+      "text": "But from now on, I can promise that what's mine is hers\n",
+      "words": [
+        {
+          "start": 12.360275068917987,
+          "end": 12.46027729439467,
+          "text": "But "
+        },
+        {
+          "start": 12.500278184585344,
+          "end": 12.680282190443373,
+          "text": "from "
+        },
+        {
+          "start": 12.720283080634045,
+          "end": 12.900287086492074,
+          "text": "now "
+        },
+        {
+          "start": 12.98028886687342,
+          "end": 13.240294653112796,
+          "text": "on, "
+        },
+        {
+          "start": 13.280295543303469,
+          "end": 13.360297323684815,
+          "text": "I "
+        },
+        {
+          "start": 13.40029821387549,
+          "end": 13.540301329542844,
+          "text": "can "
+        },
+        {
+          "start": 13.600302664828854,
+          "end": 13.960310676544912,
+          "text": "promise "
+        },
+        {
+          "start": 14.000311566735585,
+          "end": 14.140314682402941,
+          "text": "that "
+        },
+        {
+          "start": 14.180315572593614,
+          "end": 14.340319133356306,
+          "text": "what's "
+        },
+        {
+          "start": 14.38032002354698,
+          "end": 14.560324029405008,
+          "text": "mine "
+        },
+        {
+          "start": 14.600324919595682,
+          "end": 14.7203275901677,
+          "text": "is "
+        },
+        {
+          "start": 14.760328480358375,
+          "end": 15.080335601883759,
+          "text": "hers\n"
+        }
+      ]
+    },
+    {
+      "start": 15.36034183321847,
+      "end": 18.200405036756262,
+      "text": "And that shit's on some real shit, I swear she has this ill gift\n",
+      "words": [
+        {
+          "start": 15.36034183321847,
+          "end": 15.440343613599817,
+          "text": "And "
+        },
+        {
+          "start": 15.500344948885827,
+          "end": 15.640348064553182,
+          "text": "that "
+        },
+        {
+          "start": 15.66034850964852,
+          "end": 15.82035207041121,
+          "text": "shit's "
+        },
+        {
+          "start": 15.900353850792557,
+          "end": 16.020356521364576,
+          "text": "on "
+        },
+        {
+          "start": 16.06035741155525,
+          "end": 16.18036008212727,
+          "text": "some "
+        },
+        {
+          "start": 16.24036141741328,
+          "end": 16.400364978175972,
+          "text": "real "
+        },
+        {
+          "start": 16.420365423271306,
+          "end": 16.82037432517804,
+          "text": "shit, "
+        },
+        {
+          "start": 16.860375215368713,
+          "end": 16.960377440845395,
+          "text": "I "
+        },
+        {
+          "start": 17.000378331036067,
+          "end": 17.200382781989433,
+          "text": "swear "
+        },
+        {
+          "start": 17.240383672180105,
+          "end": 17.360386342752125,
+          "text": "she "
+        },
+        {
+          "start": 17.380386787847463,
+          "end": 17.52038990351482,
+          "text": "has "
+        },
+        {
+          "start": 17.540390348610156,
+          "end": 17.700393909372846,
+          "text": "this "
+        },
+        {
+          "start": 17.760395244658856,
+          "end": 17.940399250516887,
+          "text": "ill "
+        },
+        {
+          "start": 17.98040014070756,
+          "end": 18.200405036756262,
+          "text": "gift\n"
+        }
+      ]
+    },
+    {
+      "start": 18.400409487709627,
+      "end": 21.16047091086607,
+      "text": "She see someone experience emotion and she feels it\n",
+      "words": [
+        {
+          "start": 18.400409487709627,
+          "end": 18.520412158281644,
+          "text": "She "
+        },
+        {
+          "start": 18.56041304847232,
+          "end": 18.720416609235013,
+          "text": "see "
+        },
+        {
+          "start": 18.740417054330347,
+          "end": 19.060424175855733,
+          "text": "someone "
+        },
+        {
+          "start": 19.120425511141743,
+          "end": 19.78044019928785,
+          "text": "experience "
+        },
+        {
+          "start": 19.84044153457386,
+          "end": 20.340452661957272,
+          "text": "emotion "
+        },
+        {
+          "start": 20.400453997243282,
+          "end": 20.480455777624627,
+          "text": "and "
+        },
+        {
+          "start": 20.500456222719965,
+          "end": 20.64045933838732,
+          "text": "she "
+        },
+        {
+          "start": 20.740461563864002,
+          "end": 20.98046690500804,
+          "text": "feels "
+        },
+        {
+          "start": 21.04046824029405,
+          "end": 21.16047091086607,
+          "text": "it\n"
+        }
+      ]
+    },
+    {
+      "start": 21.340474916724098,
+      "end": 23.160515420399726,
+      "text": "That goes for sadness and happiness\n",
+      "words": [
+        {
+          "start": 21.340474916724098,
+          "end": 21.480478032391456,
+          "text": "That "
+        },
+        {
+          "start": 21.52047892258213,
+          "end": 21.68048248334482,
+          "text": "goes "
+        },
+        {
+          "start": 21.720483373535494,
+          "end": 21.880486934298187,
+          "text": "for "
+        },
+        {
+          "start": 21.92048782448886,
+          "end": 22.400498506776938,
+          "text": "sadness "
+        },
+        {
+          "start": 22.460499842062948,
+          "end": 22.56050206753963,
+          "text": "and "
+        },
+        {
+          "start": 22.600502957730303,
+          "end": 23.160515420399726,
+          "text": "happiness\n"
+        }
+      ]
+    },
+    {
+      "start": 23.440521651734436,
+      "end": 26.360586635653572,
+      "text": "Because when I'm happy, I can tell that's when she's happiest, huh\n",
+      "words": [
+        {
+          "start": 23.440521651734436,
+          "end": 23.740528328164487,
+          "text": "Because "
+        },
+        {
+          "start": 23.78052921835516,
+          "end": 23.900531888927176,
+          "text": "when "
+        },
+        {
+          "start": 23.940532779117852,
+          "end": 24.06053544968987,
+          "text": "I'm "
+        },
+        {
+          "start": 24.100536339880545,
+          "end": 24.500545241787275,
+          "text": "happy, "
+        },
+        {
+          "start": 24.52054568688261,
+          "end": 24.64054835745463,
+          "text": "I "
+        },
+        {
+          "start": 24.680549247645303,
+          "end": 24.800551918217323,
+          "text": "can "
+        },
+        {
+          "start": 24.860553253503333,
+          "end": 25.00055636917069,
+          "text": "tell "
+        },
+        {
+          "start": 25.04055725936136,
+          "end": 25.180560375028715,
+          "text": "that's "
+        },
+        {
+          "start": 25.22056126521939,
+          "end": 25.34056393579141,
+          "text": "when "
+        },
+        {
+          "start": 25.380564825982084,
+          "end": 25.56056883184011,
+          "text": "she's "
+        },
+        {
+          "start": 25.600569722030784,
+          "end": 26.140581739604873,
+          "text": "happiest, "
+        },
+        {
+          "start": 26.180582629795545,
+          "end": 26.360586635653572,
+          "text": "huh\n"
+        }
+      ]
+    },
+    {
+      "start": 26.580591531702275,
+      "end": 28.560635596140592,
+      "text": "And she supports me on another level\n",
+      "words": [
+        {
+          "start": 26.580591531702275,
+          "end": 26.660593312083623,
+          "text": "And "
+        },
+        {
+          "start": 26.700594202274296,
+          "end": 26.86059776303699,
+          "text": "she "
+        },
+        {
+          "start": 26.90059865322766,
+          "end": 27.3606088904204,
+          "text": "supports "
+        },
+        {
+          "start": 27.400609780611074,
+          "end": 27.54061289627843,
+          "text": "me "
+        },
+        {
+          "start": 27.580613786469105,
+          "end": 27.70061645704112,
+          "text": "on "
+        },
+        {
+          "start": 27.740617347231794,
+          "end": 28.1806271393292,
+          "text": "another "
+        },
+        {
+          "start": 28.220628029519872,
+          "end": 28.560635596140592,
+          "text": "level\n"
+        }
+      ]
+    },
+    {
+      "start": 28.800640937284633,
+      "end": 31.54070191534574,
+      "text": "She pushes me to reach for the stars and never settle\n",
+      "words": [
+        {
+          "start": 28.800640937284633,
+          "end": 28.94064405295199,
+          "text": "She "
+        },
+        {
+          "start": 29.000645388238,
+          "end": 29.34065295485872,
+          "text": "pushes "
+        },
+        {
+          "start": 29.38065384504939,
+          "end": 29.52065696071675,
+          "text": "me "
+        },
+        {
+          "start": 29.540657405812084,
+          "end": 29.660660076384104,
+          "text": "to "
+        },
+        {
+          "start": 29.720661411670115,
+          "end": 29.92066586262348,
+          "text": "reach "
+        },
+        {
+          "start": 29.98066719790949,
+          "end": 30.060668978290835,
+          "text": "for "
+        },
+        {
+          "start": 30.080669423386173,
+          "end": 30.180671648862855,
+          "text": "the "
+        },
+        {
+          "start": 30.2606734292442,
+          "end": 30.66068233115093,
+          "text": "stars "
+        },
+        {
+          "start": 30.74068411153228,
+          "end": 30.8606867821043,
+          "text": "and "
+        },
+        {
+          "start": 30.880687227199633,
+          "end": 31.160693458534347,
+          "text": "never "
+        },
+        {
+          "start": 31.220694793820353,
+          "end": 31.54070191534574,
+          "text": "settle\n"
+        }
+      ]
+    },
+    {
+      "start": 31.820708146680452,
+      "end": 35.0207793619343,
+      "text": "Now our relationship is far from perfect, but it's workin'\n",
+      "words": [
+        {
+          "start": 31.820708146680452,
+          "end": 31.94071081725247,
+          "text": "Now "
+        },
+        {
+          "start": 32.00071215253848,
+          "end": 32.14071526820584,
+          "text": "our "
+        },
+        {
+          "start": 32.18071615839651,
+          "end": 32.88073173673329,
+          "text": "relationship "
+        },
+        {
+          "start": 32.920732626923964,
+          "end": 33.02073485240064,
+          "text": "is "
+        },
+        {
+          "start": 33.080736187686654,
+          "end": 33.30074108373535,
+          "text": "far "
+        },
+        {
+          "start": 33.320741528830695,
+          "end": 33.46074464449805,
+          "text": "from "
+        },
+        {
+          "start": 33.52074597978406,
+          "end": 33.960755771881466,
+          "text": "perfect, "
+        },
+        {
+          "start": 34.32076378359752,
+          "end": 34.42076600907421,
+          "text": "but "
+        },
+        {
+          "start": 34.460766899264875,
+          "end": 34.56076912474156,
+          "text": "it's "
+        },
+        {
+          "start": 34.62077046002757,
+          "end": 35.0207793619343,
+          "text": "workin'\n"
+        }
+      ]
+    },
+    {
+      "start": 35.240784257983,
+      "end": 38.32085280266483,
+      "text": "I sacrificed a lot on purpose and it's worth it\n\n",
+      "words": [
+        {
+          "start": 35.240784257983,
+          "end": 35.34078648345969,
+          "text": "I "
+        },
+        {
+          "start": 35.38078737365036,
+          "end": 35.98080072651045,
+          "text": "sacrificed "
+        },
+        {
+          "start": 36.04080206179646,
+          "end": 36.12080384217781,
+          "text": "a "
+        },
+        {
+          "start": 36.16080473236848,
+          "end": 36.32080829313117,
+          "text": "lot "
+        },
+        {
+          "start": 36.340808738226514,
+          "end": 36.44081096370319,
+          "text": "on "
+        },
+        {
+          "start": 36.5008122989892,
+          "end": 37.020823871467954,
+          "text": "purpose "
+        },
+        {
+          "start": 37.300830102802664,
+          "end": 37.40083232827935,
+          "text": "and "
+        },
+        {
+          "start": 37.440833218470026,
+          "end": 37.56083588904204,
+          "text": "it's "
+        },
+        {
+          "start": 37.62083722432805,
+          "end": 38.16084924190214,
+          "text": "worth "
+        },
+        {
+          "start": 38.20085013209281,
+          "end": 38.32085280266483,
+          "text": "it\n\n"
+        }
+      ]
+    },
+    {
+      "start": 38.580858588904206,
+      "end": 41.52092401791868,
+      "text": "Now I can sing you a song or write you a rhyme\n",
+      "words": [
+        {
+          "start": 38.580858588904206,
+          "end": 38.72086170457156,
+          "text": "Now "
+        },
+        {
+          "start": 38.76086259476224,
+          "end": 38.88086526533425,
+          "text": "I "
+        },
+        {
+          "start": 38.92086615552493,
+          "end": 39.10087016138296,
+          "text": "can "
+        },
+        {
+          "start": 39.1808719417643,
+          "end": 39.44087772800368,
+          "text": "sing "
+        },
+        {
+          "start": 39.50087906328969,
+          "end": 39.64088217895704,
+          "text": "you "
+        },
+        {
+          "start": 39.70088351424305,
+          "end": 39.7808852946244,
+          "text": "a "
+        },
+        {
+          "start": 39.84088662991041,
+          "end": 40.220895086721804,
+          "text": "song "
+        },
+        {
+          "start": 40.460900427865845,
+          "end": 40.58090309843786,
+          "text": "or "
+        },
+        {
+          "start": 40.620903988628534,
+          "end": 40.8209084395819,
+          "text": "write "
+        },
+        {
+          "start": 40.860909329772575,
+          "end": 40.98091200034459,
+          "text": "you "
+        },
+        {
+          "start": 41.020912890535264,
+          "end": 41.140915561107285,
+          "text": "a "
+        },
+        {
+          "start": 41.18091645129796,
+          "end": 41.52092401791868,
+          "text": "rhyme\n"
+        }
+      ]
+    },
+    {
+      "start": 41.780929804158056,
+      "end": 43.940977874454404,
+      "text": "But I just can't find the words\n",
+      "words": [
+        {
+          "start": 41.780929804158056,
+          "end": 41.92093291982541,
+          "text": "But "
+        },
+        {
+          "start": 41.940933364920745,
+          "end": 42.060936035492766,
+          "text": "I "
+        },
+        {
+          "start": 42.14093781587411,
+          "end": 42.44094449230416,
+          "text": "just "
+        },
+        {
+          "start": 42.48094538249483,
+          "end": 42.78095205892488,
+          "text": "can't "
+        },
+        {
+          "start": 42.86095383930623,
+          "end": 43.20096140592695,
+          "text": "find "
+        },
+        {
+          "start": 43.22096185102229,
+          "end": 43.36096496668964,
+          "text": "the "
+        },
+        {
+          "start": 43.42096630197565,
+          "end": 43.940977874454404,
+          "text": "words\n"
+        }
+      ]
+    },
+    {
+      "start": 44.30098588617046,
+      "end": 47.54105799161498,
+      "text": "I done tried to write you a song a thousand times\n",
+      "words": [
+        {
+          "start": 44.30098588617046,
+          "end": 44.48098989202849,
+          "text": "I "
+        },
+        {
+          "start": 44.52099078221916,
+          "end": 44.70099478807719,
+          "text": "done "
+        },
+        {
+          "start": 44.740995678267865,
+          "end": 44.94100012922123,
+          "text": "tried "
+        },
+        {
+          "start": 44.961000574316564,
+          "end": 45.10100368998392,
+          "text": "to "
+        },
+        {
+          "start": 45.141004580174595,
+          "end": 45.44101125660464,
+          "text": "write "
+        },
+        {
+          "start": 45.481012146795315,
+          "end": 45.661016152653346,
+          "text": "you "
+        },
+        {
+          "start": 45.701017042844015,
+          "end": 45.78101882322537,
+          "text": "a "
+        },
+        {
+          "start": 45.84102015851138,
+          "end": 46.221028615322766,
+          "text": "song "
+        },
+        {
+          "start": 46.44103351137147,
+          "end": 46.54103573684815,
+          "text": "a "
+        },
+        {
+          "start": 46.60103707213416,
+          "end": 47.14104908970825,
+          "text": "thousand "
+        },
+        {
+          "start": 47.20105042499426,
+          "end": 47.54105799161498,
+          "text": "times\n"
+        }
+      ]
+    },
+    {
+      "start": 47.58105888180565,
+      "end": 49.90111051286469,
+      "text": "But in my mind, this is all I've heard\n\n",
+      "words": [
+        {
+          "start": 47.58105888180565,
+          "end": 47.72106199747301,
+          "text": "But "
+        },
+        {
+          "start": 47.761062887663684,
+          "end": 47.86106511314036,
+          "text": "in "
+        },
+        {
+          "start": 47.90106600333104,
+          "end": 48.101070454284404,
+          "text": "my "
+        },
+        {
+          "start": 48.161071789570414,
+          "end": 48.46107846600046,
+          "text": "mind, "
+        },
+        {
+          "start": 48.501079356191134,
+          "end": 48.66108291695383,
+          "text": "this "
+        },
+        {
+          "start": 48.721084252239834,
+          "end": 48.82108647771652,
+          "text": "is "
+        },
+        {
+          "start": 48.88108781300253,
+          "end": 49.12109315414657,
+          "text": "all "
+        },
+        {
+          "start": 49.16109404433724,
+          "end": 49.361098495290605,
+          "text": "I've "
+        },
+        {
+          "start": 49.421099830576615,
+          "end": 49.90111051286469,
+          "text": "heard\n\n"
+        }
+      ]
+    },
+    {
+      "start": 50.50112386572479,
+      "end": 55.581236919940274,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 50.50112386572479,
+          "end": 50.68112787158282,
+          "text": "This "
+        },
+        {
+          "start": 50.74112920686883,
+          "end": 50.90113276763152,
+          "text": "is "
+        },
+        {
+          "start": 50.96113410291753,
+          "end": 51.44114478520561,
+          "text": "love, "
+        },
+        {
+          "start": 51.48114567539628,
+          "end": 51.66114968125431,
+          "text": "it's "
+        },
+        {
+          "start": 51.72115101654032,
+          "end": 52.20116169882839,
+          "text": "love, "
+        },
+        {
+          "start": 52.24116258901907,
+          "end": 52.381165704686424,
+          "text": "it's "
+        },
+        {
+          "start": 52.441167039972434,
+          "end": 52.94117816735585,
+          "text": "love, "
+        },
+        {
+          "start": 52.98117905754652,
+          "end": 53.141182618309216,
+          "text": "it's "
+        },
+        {
+          "start": 53.181183508499885,
+          "end": 53.60119285550196,
+          "text": "love, "
+        },
+        {
+          "start": 53.66119419078797,
+          "end": 53.901199531932,
+          "text": "it's "
+        },
+        {
+          "start": 53.96120086721801,
+          "end": 55.581236919940274,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 56.501257394325755,
+      "end": 61.5613700034459,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 56.501257394325755,
+          "end": 56.661260955088444,
+          "text": "This "
+        },
+        {
+          "start": 56.70126184527912,
+          "end": 56.86126540604181,
+          "text": "is "
+        },
+        {
+          "start": 56.94126718642316,
+          "end": 57.421277868711236,
+          "text": "love, "
+        },
+        {
+          "start": 57.46127875890191,
+          "end": 57.6212823196646,
+          "text": "it's "
+        },
+        {
+          "start": 57.68128365495061,
+          "end": 58.18129478233403,
+          "text": "love, "
+        },
+        {
+          "start": 58.2212956725247,
+          "end": 58.36129878819205,
+          "text": "it's "
+        },
+        {
+          "start": 58.42130012347806,
+          "end": 58.94131169595681,
+          "text": "love, "
+        },
+        {
+          "start": 58.98131258614749,
+          "end": 59.121315701814844,
+          "text": "it's "
+        },
+        {
+          "start": 59.181317037100854,
+          "end": 59.60132638410292,
+          "text": "love, "
+        },
+        {
+          "start": 59.62132682919826,
+          "end": 59.88133261543763,
+          "text": "it's "
+        },
+        {
+          "start": 59.94133395072364,
+          "end": 61.5613700034459,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 62.50139092292672,
+      "end": 65.24145190098783,
+      "text": "Now this love is far from perfect\n",
+      "words": [
+        {
+          "start": 62.50139092292672,
+          "end": 62.62139359349874,
+          "text": "Now "
+        },
+        {
+          "start": 62.66139448368941,
+          "end": 62.88139937973811,
+          "text": "this "
+        },
+        {
+          "start": 62.94140071502412,
+          "end": 63.4214113973122,
+          "text": "love "
+        },
+        {
+          "start": 63.461412287502874,
+          "end": 63.60141540317023,
+          "text": "is "
+        },
+        {
+          "start": 63.66141673845624,
+          "end": 64.14142742074432,
+          "text": "far "
+        },
+        {
+          "start": 64.18142831093499,
+          "end": 64.34143187169768,
+          "text": "from "
+        },
+        {
+          "start": 64.4014332069837,
+          "end": 65.24145190098783,
+          "text": "perfect\n"
+        }
+      ]
+    },
+    {
+      "start": 65.54145857741787,
+      "end": 68.36152133586033,
+      "text": "But this love, it leaves me worthless\n",
+      "words": [
+        {
+          "start": 65.54145857741787,
+          "end": 65.66146124798989,
+          "text": "But "
+        },
+        {
+          "start": 65.68146169308523,
+          "end": 65.8814661440386,
+          "text": "this "
+        },
+        {
+          "start": 65.9414674793246,
+          "end": 66.46147905180335,
+          "text": "love, "
+        },
+        {
+          "start": 66.50147994199403,
+          "end": 66.64148305766139,
+          "text": "it "
+        },
+        {
+          "start": 66.70148439294739,
+          "end": 67.20149552033081,
+          "text": "leaves "
+        },
+        {
+          "start": 67.22149596542614,
+          "end": 67.40149997128418,
+          "text": "me "
+        },
+        {
+          "start": 67.46150130657018,
+          "end": 68.36152133586033,
+          "text": "worthless\n"
+        }
+      ]
+    },
+    {
+      "start": 68.52152489662302,
+      "end": 73.60163795083851,
+      "text": "So now all that I can say is this is love\n\n",
+      "words": [
+        {
+          "start": 68.52152489662302,
+          "end": 68.66152801229038,
+          "text": "So "
+        },
+        {
+          "start": 68.70152890248104,
+          "end": 68.94153424362509,
+          "text": "now "
+        },
+        {
+          "start": 68.98153513381577,
+          "end": 69.4415453710085,
+          "text": "all "
+        },
+        {
+          "start": 69.46154581610384,
+          "end": 69.74155204743855,
+          "text": "that "
+        },
+        {
+          "start": 69.80155338272456,
+          "end": 70.16156139444062,
+          "text": "I "
+        },
+        {
+          "start": 70.2015622846313,
+          "end": 70.2615636199173,
+          "text": "can "
+        },
+        {
+          "start": 70.30156451010798,
+          "end": 70.44156762577533,
+          "text": "say "
+        },
+        {
+          "start": 70.481568515966,
+          "end": 71.14158320411211,
+          "text": "is "
+        },
+        {
+          "start": 71.18158409430278,
+          "end": 71.5215916609235,
+          "text": "this "
+        },
+        {
+          "start": 71.58159299620951,
+          "end": 71.9016001177349,
+          "text": "is "
+        },
+        {
+          "start": 71.9616014530209,
+          "end": 73.60163795083851,
+          "text": "love\n\n"
+        }
+      ]
+    },
+    {
+      "start": 74.06164818803124,
+      "end": 78.10173809728923,
+      "text": "Yeah, sometimes I can't explain myself 'cause I can't find the words\n",
+      "words": [
+        {
+          "start": 74.06164818803124,
+          "end": 74.34165441936595,
+          "text": "Yeah, "
+        },
+        {
+          "start": 75.28167533884678,
+          "end": 75.70168468584885,
+          "text": "sometimes "
+        },
+        {
+          "start": 75.74168557603952,
+          "end": 75.82168735642087,
+          "text": "I "
+        },
+        {
+          "start": 75.86168824661154,
+          "end": 76.06169269756491,
+          "text": "can't "
+        },
+        {
+          "start": 76.08169314266024,
+          "end": 76.42170070928096,
+          "text": "explain "
+        },
+        {
+          "start": 76.46170159947164,
+          "end": 76.82170961118769,
+          "text": "myself "
+        },
+        {
+          "start": 76.84171005628302,
+          "end": 76.98171317195039,
+          "text": "'cause "
+        },
+        {
+          "start": 77.04171450723639,
+          "end": 77.14171673271308,
+          "text": "I "
+        },
+        {
+          "start": 77.18171762290375,
+          "end": 77.36172162876177,
+          "text": "can't "
+        },
+        {
+          "start": 77.42172296404779,
+          "end": 77.60172696990581,
+          "text": "find "
+        },
+        {
+          "start": 77.62172741500115,
+          "end": 77.72172964047783,
+          "text": "the "
+        },
+        {
+          "start": 77.7617305306685,
+          "end": 78.10173809728923,
+          "text": "words\n"
+        }
+      ]
+    },
+    {
+      "start": 78.38174432862394,
+      "end": 81.08180441649438,
+      "text": "She got me feelin' high, without me tryin', I'm kinda irked\n",
+      "words": [
+        {
+          "start": 78.38174432862394,
+          "end": 78.5217474442913,
+          "text": "She "
+        },
+        {
+          "start": 78.54174788938663,
+          "end": 78.70175145014933,
+          "text": "got "
+        },
+        {
+          "start": 78.72175189524467,
+          "end": 78.84175456581669,
+          "text": "me "
+        },
+        {
+          "start": 78.92175634619802,
+          "end": 79.20176257753273,
+          "text": "feelin' "
+        },
+        {
+          "start": 79.24176346772342,
+          "end": 79.46176836377211,
+          "text": "high, "
+        },
+        {
+          "start": 79.50176925396279,
+          "end": 79.7817754852975,
+          "text": "without "
+        },
+        {
+          "start": 79.80177593039284,
+          "end": 79.90177815586952,
+          "text": "me "
+        },
+        {
+          "start": 79.98177993625086,
+          "end": 80.20178483229957,
+          "text": "tryin', "
+        },
+        {
+          "start": 80.24178572249023,
+          "end": 80.36178839306226,
+          "text": "I'm "
+        },
+        {
+          "start": 80.40178928325294,
+          "end": 80.68179551458765,
+          "text": "kinda "
+        },
+        {
+          "start": 80.74179684987365,
+          "end": 81.08180441649438,
+          "text": "irked\n"
+        }
+      ]
+    },
+    {
+      "start": 81.34181020273375,
+      "end": 84.14187251608087,
+      "text": "Sometimes I get the urge and think that she should have my baby\n",
+      "words": [
+        {
+          "start": 81.34181020273375,
+          "end": 81.72181865954515,
+          "text": "Sometimes "
+        },
+        {
+          "start": 81.76181954973582,
+          "end": 81.84182133011717,
+          "text": "I "
+        },
+        {
+          "start": 81.88182222030784,
+          "end": 82.0218253359752,
+          "text": "get "
+        },
+        {
+          "start": 82.06182622616586,
+          "end": 82.18182889673788,
+          "text": "the "
+        },
+        {
+          "start": 82.2418302320239,
+          "end": 82.50183601826328,
+          "text": "urge "
+        },
+        {
+          "start": 82.54183690845394,
+          "end": 82.6218386888353,
+          "text": "and "
+        },
+        {
+          "start": 82.66183957902597,
+          "end": 82.82184313978865,
+          "text": "think "
+        },
+        {
+          "start": 82.84184358488399,
+          "end": 82.96184625545601,
+          "text": "that "
+        },
+        {
+          "start": 83.00184714564668,
+          "end": 83.14185026131403,
+          "text": "she "
+        },
+        {
+          "start": 83.16185070640938,
+          "end": 83.3418547122674,
+          "text": "should "
+        },
+        {
+          "start": 83.36185515736274,
+          "end": 83.54185916322078,
+          "text": "have "
+        },
+        {
+          "start": 83.58186005341145,
+          "end": 83.70186272398347,
+          "text": "my "
+        },
+        {
+          "start": 83.76186405926947,
+          "end": 84.14187251608087,
+          "text": "baby\n"
+        }
+      ]
+    },
+    {
+      "start": 84.46187963760626,
+      "end": 86.94193482942798,
+      "text": "But I don't wanna think too crazy, we're too young\n",
+      "words": [
+        {
+          "start": 84.46187963760626,
+          "end": 84.5418814179876,
+          "text": "But "
+        },
+        {
+          "start": 84.60188275327361,
+          "end": 84.66188408855962,
+          "text": "I "
+        },
+        {
+          "start": 84.70188497875029,
+          "end": 84.84188809441764,
+          "text": "don't "
+        },
+        {
+          "start": 84.88188898460832,
+          "end": 85.1418947708477,
+          "text": "wanna "
+        },
+        {
+          "start": 85.18189566103837,
+          "end": 85.34189922180106,
+          "text": "think "
+        },
+        {
+          "start": 85.38190011199174,
+          "end": 85.5219032276591,
+          "text": "too "
+        },
+        {
+          "start": 85.60190500804043,
+          "end": 86.04191480013785,
+          "text": "crazy, "
+        },
+        {
+          "start": 86.2419192510912,
+          "end": 86.4019228118539,
+          "text": "we're "
+        },
+        {
+          "start": 86.42192325694923,
+          "end": 86.6219277079026,
+          "text": "too "
+        },
+        {
+          "start": 86.6819290431886,
+          "end": 86.94193482942798,
+          "text": "young\n"
+        }
+      ]
+    },
+    {
+      "start": 87.001936164714,
+      "end": 89.34198824086837,
+      "text": "But when the time comes, I wouldn't choose no other\n",
+      "words": [
+        {
+          "start": 87.001936164714,
+          "end": 87.12193883528602,
+          "text": "But "
+        },
+        {
+          "start": 87.14193928038135,
+          "end": 87.2819423960487,
+          "text": "when "
+        },
+        {
+          "start": 87.32194328623937,
+          "end": 87.4419459568114,
+          "text": "the "
+        },
+        {
+          "start": 87.50194729209741,
+          "end": 87.80195396852746,
+          "text": "time "
+        },
+        {
+          "start": 87.86195530381346,
+          "end": 88.12196109005284,
+          "text": "comes, "
+        },
+        {
+          "start": 88.16196198024352,
+          "end": 88.24196376062486,
+          "text": "I "
+        },
+        {
+          "start": 88.28196465081554,
+          "end": 88.54197043705491,
+          "text": "wouldn't "
+        },
+        {
+          "start": 88.58197132724558,
+          "end": 88.80197622329429,
+          "text": "choose "
+        },
+        {
+          "start": 88.84197711348496,
+          "end": 88.98198022915231,
+          "text": "no "
+        },
+        {
+          "start": 89.04198156443832,
+          "end": 89.34198824086837,
+          "text": "other\n"
+        }
+      ]
+    },
+    {
+      "start": 89.62199447220308,
+      "end": 92.32205456007351,
+      "text": "To bear my seed, I know she'll be a beautiful mother\n",
+      "words": [
+        {
+          "start": 89.62199447220308,
+          "end": 89.72199669767977,
+          "text": "To "
+        },
+        {
+          "start": 89.78199803296577,
+          "end": 89.94200159372846,
+          "text": "bear "
+        },
+        {
+          "start": 89.98200248391915,
+          "end": 90.14200604468184,
+          "text": "my "
+        },
+        {
+          "start": 90.22200782506317,
+          "end": 90.5020140563979,
+          "text": "seed, "
+        },
+        {
+          "start": 90.54201494658857,
+          "end": 90.6220167269699,
+          "text": "I "
+        },
+        {
+          "start": 90.66201761716059,
+          "end": 90.80202073282794,
+          "text": "know "
+        },
+        {
+          "start": 90.86202206811394,
+          "end": 91.08202696416265,
+          "text": "she'll "
+        },
+        {
+          "start": 91.10202740925799,
+          "end": 91.24203052492534,
+          "text": "be "
+        },
+        {
+          "start": 91.28203141511601,
+          "end": 91.36203319549736,
+          "text": "a "
+        },
+        {
+          "start": 91.42203453078338,
+          "end": 91.94204610326213,
+          "text": "beautiful "
+        },
+        {
+          "start": 91.9820469934528,
+          "end": 92.32205456007351,
+          "text": "mother\n"
+        }
+      ]
+    },
+    {
+      "start": 92.60206079140823,
+      "end": 94.62210574603722,
+      "text": "A beautiful person is what she is\n",
+      "words": [
+        {
+          "start": 92.60206079140823,
+          "end": 92.7020630168849,
+          "text": "A "
+        },
+        {
+          "start": 92.74206390707559,
+          "end": 93.24207503445899,
+          "text": "beautiful "
+        },
+        {
+          "start": 93.30207636974501,
+          "end": 93.66208438146107,
+          "text": "person "
+        },
+        {
+          "start": 93.72208571674707,
+          "end": 93.8420883873191,
+          "text": "is "
+        },
+        {
+          "start": 93.88208927750976,
+          "end": 94.02209239317712,
+          "text": "what "
+        },
+        {
+          "start": 94.0620932833678,
+          "end": 94.24209728922582,
+          "text": "she "
+        },
+        {
+          "start": 94.30209862451183,
+          "end": 94.62210574603722,
+          "text": "is\n"
+        }
+      ]
+    },
+    {
+      "start": 94.86211108718126,
+      "end": 97.68217384562371,
+      "text": "And I can't wait for us to grow together through the years\n",
+      "words": [
+        {
+          "start": 94.86211108718126,
+          "end": 94.98211375775328,
+          "text": "And "
+        },
+        {
+          "start": 95.02211464794395,
+          "end": 95.12211687342064,
+          "text": "I "
+        },
+        {
+          "start": 95.18211820870664,
+          "end": 95.34212176946933,
+          "text": "can't "
+        },
+        {
+          "start": 95.40212310475535,
+          "end": 95.58212711061337,
+          "text": "wait "
+        },
+        {
+          "start": 95.64212844589939,
+          "end": 95.74213067137606,
+          "text": "for "
+        },
+        {
+          "start": 95.80213200666208,
+          "end": 95.9221346772341,
+          "text": "us "
+        },
+        {
+          "start": 95.96213556742477,
+          "end": 96.08213823799679,
+          "text": "to "
+        },
+        {
+          "start": 96.1421395732828,
+          "end": 96.32214357914083,
+          "text": "grow "
+        },
+        {
+          "start": 96.3621444693315,
+          "end": 96.78215381633356,
+          "text": "together "
+        },
+        {
+          "start": 96.84215515161958,
+          "end": 97.04215960257294,
+          "text": "through "
+        },
+        {
+          "start": 97.06216004766829,
+          "end": 97.20216316333564,
+          "text": "the "
+        },
+        {
+          "start": 97.26216449862164,
+          "end": 97.68217384562371,
+          "text": "years\n"
+        }
+      ]
+    },
+    {
+      "start": 97.98218052205377,
+      "end": 100.5822383844475,
+      "text": "I can't wait for us to mold each other and co-head\n",
+      "words": [
+        {
+          "start": 97.98218052205377,
+          "end": 98.10218319262577,
+          "text": "I "
+        },
+        {
+          "start": 98.16218452791179,
+          "end": 98.34218853376981,
+          "text": "can't "
+        },
+        {
+          "start": 98.40218986905583,
+          "end": 98.58219387491386,
+          "text": "wait "
+        },
+        {
+          "start": 98.62219476510452,
+          "end": 98.72219699058121,
+          "text": "for "
+        },
+        {
+          "start": 98.78219832586723,
+          "end": 98.92220144153458,
+          "text": "us "
+        },
+        {
+          "start": 98.96220233172525,
+          "end": 99.08220500229727,
+          "text": "to "
+        },
+        {
+          "start": 99.14220633758327,
+          "end": 99.34221078853665,
+          "text": "mold "
+        },
+        {
+          "start": 99.38221167872732,
+          "end": 99.54221523949,
+          "text": "each "
+        },
+        {
+          "start": 99.58221612968069,
+          "end": 99.80222102572938,
+          "text": "other "
+        },
+        {
+          "start": 99.8622223610154,
+          "end": 99.98222503158742,
+          "text": "and "
+        },
+        {
+          "start": 100.04222636687342,
+          "end": 100.22223037273146,
+          "text": "co-"
+        },
+        {
+          "start": 100.26223126292213,
+          "end": 100.5822383844475,
+          "text": "head\n"
+        }
+      ]
+    },
+    {
+      "start": 100.82224372559155,
+      "end": 103.60230559384333,
+      "text": "And we already had to hold each other through some tears\n",
+      "words": [
+        {
+          "start": 100.82224372559155,
+          "end": 100.9622468412589,
+          "text": "And "
+        },
+        {
+          "start": 101.00224773144959,
+          "end": 101.16225129221228,
+          "text": "we "
+        },
+        {
+          "start": 101.20225218240294,
+          "end": 101.66226241959569,
+          "text": "already "
+        },
+        {
+          "start": 101.70226330978636,
+          "end": 101.90226776073972,
+          "text": "had "
+        },
+        {
+          "start": 101.9422686509304,
+          "end": 102.06227132150242,
+          "text": "to "
+        },
+        {
+          "start": 102.10227221169309,
+          "end": 102.34227755283713,
+          "text": "hold "
+        },
+        {
+          "start": 102.36227799793247,
+          "end": 102.52228155869516,
+          "text": "each "
+        },
+        {
+          "start": 102.56228244888582,
+          "end": 102.7622868998392,
+          "text": "other "
+        },
+        {
+          "start": 102.80228779002987,
+          "end": 103.00229224098324,
+          "text": "through "
+        },
+        {
+          "start": 103.0422931311739,
+          "end": 103.18229624684126,
+          "text": "some "
+        },
+        {
+          "start": 103.26229802722261,
+          "end": 103.60230559384333,
+          "text": "tears\n"
+        }
+      ]
+    },
+    {
+      "start": 103.8623113800827,
+      "end": 106.58237191304848,
+      "text": "We know that anything can happen but to lose the fear\n",
+      "words": [
+        {
+          "start": 103.8623113800827,
+          "end": 104.00231449575006,
+          "text": "We "
+        },
+        {
+          "start": 104.0223149408454,
+          "end": 104.1823185016081,
+          "text": "know "
+        },
+        {
+          "start": 104.22231939179876,
+          "end": 104.34232206237078,
+          "text": "that "
+        },
+        {
+          "start": 104.40232339765679,
+          "end": 104.86233363484953,
+          "text": "anything "
+        },
+        {
+          "start": 104.9023345250402,
+          "end": 105.06233808580289,
+          "text": "can "
+        },
+        {
+          "start": 105.08233853089824,
+          "end": 105.46234698770964,
+          "text": "happen "
+        },
+        {
+          "start": 105.5023478779003,
+          "end": 105.64235099356766,
+          "text": "but "
+        },
+        {
+          "start": 105.662351438663,
+          "end": 105.82235499942568,
+          "text": "to "
+        },
+        {
+          "start": 105.86235588961637,
+          "end": 106.06236034056973,
+          "text": "lose "
+        },
+        {
+          "start": 106.08236078566506,
+          "end": 106.22236390133241,
+          "text": "the "
+        },
+        {
+          "start": 106.30236568171377,
+          "end": 106.58237191304848,
+          "text": "fear\n"
+        }
+      ]
+    },
+    {
+      "start": 106.86237814438319,
+      "end": 110.34245559097175,
+      "text": "Don't listen to that negativity some choose to hear, for real\n\n",
+      "words": [
+        {
+          "start": 106.86237814438319,
+          "end": 107.00238126005054,
+          "text": "Don't "
+        },
+        {
+          "start": 107.04238215024122,
+          "end": 107.32238838157593,
+          "text": "listen "
+        },
+        {
+          "start": 107.3623892717666,
+          "end": 107.48239194233862,
+          "text": "to "
+        },
+        {
+          "start": 107.52239283252929,
+          "end": 107.66239594819665,
+          "text": "that "
+        },
+        {
+          "start": 107.742397728578,
+          "end": 108.5624159774868,
+          "text": "negativity "
+        },
+        {
+          "start": 108.62241731277281,
+          "end": 108.7824208735355,
+          "text": "some "
+        },
+        {
+          "start": 108.8424222088215,
+          "end": 109.10242799506088,
+          "text": "choose "
+        },
+        {
+          "start": 109.12242844015621,
+          "end": 109.24243111072823,
+          "text": "to "
+        },
+        {
+          "start": 109.28243200091892,
+          "end": 109.6024391224443,
+          "text": "hear, "
+        },
+        {
+          "start": 109.822444018493,
+          "end": 109.98244757925569,
+          "text": "for "
+        },
+        {
+          "start": 110.0424489145417,
+          "end": 110.34245559097175,
+          "text": "real\n\n"
+        }
+      ]
+    },
+    {
+      "start": 110.54246004192511,
+      "end": 113.52252636113026,
+      "text": "Now I can sing you a song or write you a rhyme\n",
+      "words": [
+        {
+          "start": 110.54246004192511,
+          "end": 110.7024636026878,
+          "text": "Now "
+        },
+        {
+          "start": 110.76246493797382,
+          "end": 110.88246760854584,
+          "text": "I "
+        },
+        {
+          "start": 110.9224684987365,
+          "end": 111.12247294968988,
+          "text": "can "
+        },
+        {
+          "start": 111.18247428497588,
+          "end": 111.40247918102459,
+          "text": "sing "
+        },
+        {
+          "start": 111.46248051631059,
+          "end": 111.64248452216863,
+          "text": "you "
+        },
+        {
+          "start": 111.6824854123593,
+          "end": 111.70248585745463,
+          "text": "a "
+        },
+        {
+          "start": 111.84248897312199,
+          "end": 112.22249742993338,
+          "text": "song "
+        },
+        {
+          "start": 112.44250232598209,
+          "end": 112.58250544164945,
+          "text": "or "
+        },
+        {
+          "start": 112.60250588674478,
+          "end": 112.82251078279349,
+          "text": "write "
+        },
+        {
+          "start": 112.84251122788882,
+          "end": 112.96251389846084,
+          "text": "you "
+        },
+        {
+          "start": 113.02251523374684,
+          "end": 113.14251790431886,
+          "text": "a "
+        },
+        {
+          "start": 113.18251879450953,
+          "end": 113.52252636113026,
+          "text": "rhyme\n"
+        }
+      ]
+    },
+    {
+      "start": 113.78253214736964,
+      "end": 115.92257977257064,
+      "text": "But I just can't find the words\n",
+      "words": [
+        {
+          "start": 113.78253214736964,
+          "end": 113.90253481794166,
+          "text": "But "
+        },
+        {
+          "start": 113.92253526303699,
+          "end": 114.06253837870435,
+          "text": "I "
+        },
+        {
+          "start": 114.12253971399036,
+          "end": 114.42254639042041,
+          "text": "just "
+        },
+        {
+          "start": 114.48254772570641,
+          "end": 114.76255395704112,
+          "text": "can't "
+        },
+        {
+          "start": 114.84255573742247,
+          "end": 115.1825633040432,
+          "text": "find "
+        },
+        {
+          "start": 115.20256374913853,
+          "end": 115.34256686480589,
+          "text": "the "
+        },
+        {
+          "start": 115.40256820009189,
+          "end": 115.92257977257064,
+          "text": "words\n"
+        }
+      ]
+    },
+    {
+      "start": 116.2225864490007,
+      "end": 118.22263095853435,
+      "text": "Lied and tried to write you a song\n",
+      "words": [
+        {
+          "start": 116.2225864490007,
+          "end": 116.52259312543075,
+          "text": "Lied "
+        },
+        {
+          "start": 116.54259357052608,
+          "end": 116.68259668619343,
+          "text": "and "
+        },
+        {
+          "start": 116.7225975763841,
+          "end": 116.92260202733748,
+          "text": "tried "
+        },
+        {
+          "start": 116.96260291752814,
+          "end": 117.08260558810017,
+          "text": "to "
+        },
+        {
+          "start": 117.12260647829083,
+          "end": 117.40261270962556,
+          "text": "write "
+        },
+        {
+          "start": 117.46261404491156,
+          "end": 117.64261805076958,
+          "text": "you "
+        },
+        {
+          "start": 117.7026193860556,
+          "end": 117.7626207213416,
+          "text": "a "
+        },
+        {
+          "start": 117.82262205662762,
+          "end": 118.22263095853435,
+          "text": "song\n"
+        }
+      ]
+    },
+    {
+      "start": 118.42263540948771,
+      "end": 121.92271330117161,
+      "text": "A thousand times but in my mind this is all I heard\n\n",
+      "words": [
+        {
+          "start": 118.42263540948771,
+          "end": 118.56263852515507,
+          "text": "A "
+        },
+        {
+          "start": 118.60263941534575,
+          "end": 119.1226509878245,
+          "text": "thousand "
+        },
+        {
+          "start": 119.1826523231105,
+          "end": 119.54266033482656,
+          "text": "times "
+        },
+        {
+          "start": 119.58266122501723,
+          "end": 119.70266389558925,
+          "text": "but "
+        },
+        {
+          "start": 119.74266478577992,
+          "end": 119.86266745635194,
+          "text": "in "
+        },
+        {
+          "start": 119.90266834654263,
+          "end": 120.08267235240065,
+          "text": "my "
+        },
+        {
+          "start": 120.14267368768665,
+          "end": 120.44268036411671,
+          "text": "mind "
+        },
+        {
+          "start": 120.48268125430738,
+          "end": 120.6626852601654,
+          "text": "this "
+        },
+        {
+          "start": 120.70268615035609,
+          "end": 120.80268837583276,
+          "text": "is "
+        },
+        {
+          "start": 120.86268971111878,
+          "end": 121.10269505226282,
+          "text": "all "
+        },
+        {
+          "start": 121.14269594245349,
+          "end": 121.36270083850219,
+          "text": "I "
+        },
+        {
+          "start": 121.4227021737882,
+          "end": 121.92271330117161,
+          "text": "heard\n\n"
+        }
+      ]
+    },
+    {
+      "start": 122.50272620893637,
+      "end": 127.56283881805652,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 122.50272620893637,
+          "end": 122.66272976969907,
+          "text": "This "
+        },
+        {
+          "start": 122.72273110498507,
+          "end": 122.88273466574776,
+          "text": "is "
+        },
+        {
+          "start": 122.94273600103378,
+          "end": 123.42274668332185,
+          "text": "love, "
+        },
+        {
+          "start": 123.48274801860786,
+          "end": 123.64275157937055,
+          "text": "it's "
+        },
+        {
+          "start": 123.70275291465657,
+          "end": 124.1627631518493,
+          "text": "love, "
+        },
+        {
+          "start": 124.22276448713531,
+          "end": 124.38276804789801,
+          "text": "it's "
+        },
+        {
+          "start": 124.42276893808868,
+          "end": 124.9227800654721,
+          "text": "love, "
+        },
+        {
+          "start": 124.96278095566277,
+          "end": 125.12278451642545,
+          "text": "it's "
+        },
+        {
+          "start": 125.14278496152079,
+          "end": 125.5827947536182,
+          "text": "love, "
+        },
+        {
+          "start": 125.6427960889042,
+          "end": 125.86280098495291,
+          "text": "it's "
+        },
+        {
+          "start": 125.94280276533426,
+          "end": 127.56283881805652,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 128.482859292442,
+      "end": 133.54297190156214,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 128.482859292442,
+          "end": 128.6428628532047,
+          "text": "This "
+        },
+        {
+          "start": 128.7028641884907,
+          "end": 128.84286730415806,
+          "text": "is "
+        },
+        {
+          "start": 128.9228690845394,
+          "end": 129.42288021192283,
+          "text": "love, "
+        },
+        {
+          "start": 129.4628811021135,
+          "end": 129.62288466287617,
+          "text": "it's "
+        },
+        {
+          "start": 129.66288555306684,
+          "end": 130.16289668045027,
+          "text": "love, "
+        },
+        {
+          "start": 130.20289757064094,
+          "end": 130.36290113140365,
+          "text": "it's "
+        },
+        {
+          "start": 130.40290202159431,
+          "end": 130.92291359407307,
+          "text": "love, "
+        },
+        {
+          "start": 130.98291492935905,
+          "end": 131.12291804502644,
+          "text": "it's "
+        },
+        {
+          "start": 131.1629189352171,
+          "end": 131.6029287273145,
+          "text": "love, "
+        },
+        {
+          "start": 131.6429296175052,
+          "end": 131.8829349586492,
+          "text": "it's "
+        },
+        {
+          "start": 131.9229358488399,
+          "end": 133.54297190156214,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 134.48299282104296,
+      "end": 137.20305335400874,
+      "text": "Now this love is far from perfect\n",
+      "words": [
+        {
+          "start": 134.48299282104296,
+          "end": 134.64299638180566,
+          "text": "Now "
+        },
+        {
+          "start": 134.662996826901,
+          "end": 134.86300127785435,
+          "text": "this "
+        },
+        {
+          "start": 134.92300261314037,
+          "end": 135.40301329542845,
+          "text": "love "
+        },
+        {
+          "start": 135.44301418561912,
+          "end": 135.58301730128647,
+          "text": "is "
+        },
+        {
+          "start": 135.6430186365725,
+          "end": 136.12302931886057,
+          "text": "far "
+        },
+        {
+          "start": 136.16303020905124,
+          "end": 136.32303376981392,
+          "text": "from "
+        },
+        {
+          "start": 136.38303510509994,
+          "end": 137.20305335400874,
+          "text": "perfect\n"
+        }
+      ]
+    },
+    {
+      "start": 137.52306047553412,
+      "end": 140.32312278888125,
+      "text": "But this love, it leaves me worthless\n",
+      "words": [
+        {
+          "start": 137.52306047553412,
+          "end": 137.64306314610613,
+          "text": "But "
+        },
+        {
+          "start": 137.66306359120148,
+          "end": 137.88306848725017,
+          "text": "this "
+        },
+        {
+          "start": 137.9430698225362,
+          "end": 138.46308139501494,
+          "text": "love, "
+        },
+        {
+          "start": 138.5030822852056,
+          "end": 138.64308540087296,
+          "text": "it "
+        },
+        {
+          "start": 138.68308629106363,
+          "end": 139.1630969733517,
+          "text": "leaves "
+        },
+        {
+          "start": 139.20309786354238,
+          "end": 139.3831018694004,
+          "text": "me "
+        },
+        {
+          "start": 139.4231027595911,
+          "end": 140.32312278888125,
+          "text": "worthless\n"
+        }
+      ]
+    },
+    {
+      "start": 140.50312679473927,
+      "end": 146.2632549821962,
+      "text": "So now all that I can say is this is love\n\n",
+      "words": [
+        {
+          "start": 140.50312679473927,
+          "end": 140.64312991040663,
+          "text": "So "
+        },
+        {
+          "start": 140.6831308005973,
+          "end": 140.92313614174134,
+          "text": "now "
+        },
+        {
+          "start": 140.98313747702736,
+          "end": 141.42314726912474,
+          "text": "all "
+        },
+        {
+          "start": 141.4631481593154,
+          "end": 141.74315439065012,
+          "text": "that "
+        },
+        {
+          "start": 141.82315617103148,
+          "end": 142.1631637376522,
+          "text": "I "
+        },
+        {
+          "start": 142.20316462784288,
+          "end": 142.40316907879622,
+          "text": "can "
+        },
+        {
+          "start": 142.44316996898692,
+          "end": 142.7631770905123,
+          "text": "say "
+        },
+        {
+          "start": 142.96318154146567,
+          "end": 143.12318510222835,
+          "text": "is "
+        },
+        {
+          "start": 143.16318599241902,
+          "end": 143.44319222375373,
+          "text": "this "
+        },
+        {
+          "start": 143.56319489432576,
+          "end": 143.88320201585114,
+          "text": "is "
+        },
+        {
+          "start": 143.94320335113716,
+          "end": 146.2632549821962,
+          "text": "love\n\n"
+        }
+      ]
+    },
+    {
+      "start": 146.5432612135309,
+      "end": 149.40332486216403,
+      "text": "Now I've been tryna write this song for a long time\n",
+      "words": [
+        {
+          "start": 146.5432612135309,
+          "end": 146.72326521938894,
+          "text": "Now "
+        },
+        {
+          "start": 146.80326699977027,
+          "end": 146.94327011543763,
+          "text": "I've "
+        },
+        {
+          "start": 146.96327056053298,
+          "end": 147.10327367620033,
+          "text": "been "
+        },
+        {
+          "start": 147.16327501148635,
+          "end": 147.48328213301173,
+          "text": "tryna "
+        },
+        {
+          "start": 147.50328257810705,
+          "end": 147.72328747415577,
+          "text": "write "
+        },
+        {
+          "start": 147.7432879192511,
+          "end": 147.92329192510914,
+          "text": "this "
+        },
+        {
+          "start": 147.98329326039513,
+          "end": 148.32330082701586,
+          "text": "song "
+        },
+        {
+          "start": 148.36330171720653,
+          "end": 148.52330527796923,
+          "text": "for "
+        },
+        {
+          "start": 148.54330572306455,
+          "end": 148.64330794854123,
+          "text": "a "
+        },
+        {
+          "start": 148.6833088387319,
+          "end": 148.9633150700666,
+          "text": "long "
+        },
+        {
+          "start": 149.02331640535263,
+          "end": 149.40332486216403,
+          "text": "time\n"
+        }
+      ]
+    },
+    {
+      "start": 149.70333153859409,
+      "end": 152.42339207155985,
+      "text": "It was either the wrong place or the wrong time\n",
+      "words": [
+        {
+          "start": 149.70333153859409,
+          "end": 149.78333331897542,
+          "text": "It "
+        },
+        {
+          "start": 149.80333376407077,
+          "end": 149.96333732483345,
+          "text": "was "
+        },
+        {
+          "start": 150.02333866011946,
+          "end": 150.30334489145417,
+          "text": "either "
+        },
+        {
+          "start": 150.34334578164484,
+          "end": 150.46334845221688,
+          "text": "the "
+        },
+        {
+          "start": 150.52334978750287,
+          "end": 150.82335646393292,
+          "text": "wrong "
+        },
+        {
+          "start": 150.88335779921894,
+          "end": 151.28336670112566,
+          "text": "place "
+        },
+        {
+          "start": 151.4633707069837,
+          "end": 151.54337248736505,
+          "text": "or "
+        },
+        {
+          "start": 151.56337293246037,
+          "end": 151.66337515793705,
+          "text": "the "
+        },
+        {
+          "start": 151.72337649322307,
+          "end": 151.98338227946243,
+          "text": "wrong "
+        },
+        {
+          "start": 152.04338361474845,
+          "end": 152.42339207155985,
+          "text": "time\n"
+        }
+      ]
+    },
+    {
+      "start": 152.68339785779924,
+      "end": 155.54346150643235,
+      "text": "But now it's alright, was finally able to make this\n",
+      "words": [
+        {
+          "start": 152.68339785779924,
+          "end": 152.78340008327592,
+          "text": "But "
+        },
+        {
+          "start": 152.8234009734666,
+          "end": 152.98340453422927,
+          "text": "now "
+        },
+        {
+          "start": 153.04340586951528,
+          "end": 153.18340898518264,
+          "text": "it's "
+        },
+        {
+          "start": 153.24341032046866,
+          "end": 153.80342278313807,
+          "text": "alright, "
+        },
+        {
+          "start": 153.8634241184241,
+          "end": 154.02342767918677,
+          "text": "was "
+        },
+        {
+          "start": 154.08342901447278,
+          "end": 154.44343702618883,
+          "text": "finally "
+        },
+        {
+          "start": 154.50343836147485,
+          "end": 154.78344459280956,
+          "text": "able "
+        },
+        {
+          "start": 154.8034450379049,
+          "end": 154.9234477084769,
+          "text": "to "
+        },
+        {
+          "start": 154.98344904376293,
+          "end": 155.22345438490697,
+          "text": "make "
+        },
+        {
+          "start": 155.283455720193,
+          "end": 155.54346150643235,
+          "text": "this\n"
+        }
+      ]
+    },
+    {
+      "start": 155.6234632868137,
+      "end": 158.56352871582817,
+      "text": "Worked on it all night, you inspired me to greatness\n",
+      "words": [
+        {
+          "start": 155.6234632868137,
+          "end": 155.86346862795773,
+          "text": "Worked "
+        },
+        {
+          "start": 155.92346996324375,
+          "end": 156.02347218872043,
+          "text": "on "
+        },
+        {
+          "start": 156.0634730789111,
+          "end": 156.1634753043878,
+          "text": "it "
+        },
+        {
+          "start": 156.20347619457846,
+          "end": 156.46348198081785,
+          "text": "all "
+        },
+        {
+          "start": 156.52348331610384,
+          "end": 156.78348910234322,
+          "text": "night, "
+        },
+        {
+          "start": 157.00349399839192,
+          "end": 157.1034962238686,
+          "text": "you "
+        },
+        {
+          "start": 157.14349711405927,
+          "end": 157.6435082414427,
+          "text": "inspired "
+        },
+        {
+          "start": 157.68350913163337,
+          "end": 157.80351180220538,
+          "text": "me "
+        },
+        {
+          "start": 157.84351269239605,
+          "end": 157.94351491787273,
+          "text": "to "
+        },
+        {
+          "start": 158.00351625315875,
+          "end": 158.56352871582817,
+          "text": "greatness\n"
+        }
+      ]
+    },
+    {
+      "start": 158.84353494716288,
+      "end": 160.96358212726855,
+      "text": "Everything I do, I do with you in mind\n",
+      "words": [
+        {
+          "start": 158.84353494716288,
+          "end": 159.2835447392603,
+          "text": "Everything "
+        },
+        {
+          "start": 159.32354562945096,
+          "end": 159.46354874511832,
+          "text": "I "
+        },
+        {
+          "start": 159.52355008040433,
+          "end": 159.6635531960717,
+          "text": "do, "
+        },
+        {
+          "start": 159.70355408626236,
+          "end": 159.8435572019297,
+          "text": "I "
+        },
+        {
+          "start": 159.90355853721573,
+          "end": 160.02356120778774,
+          "text": "do "
+        },
+        {
+          "start": 160.04356165288308,
+          "end": 160.20356521364576,
+          "text": "with "
+        },
+        {
+          "start": 160.24356610383643,
+          "end": 160.38356921950378,
+          "text": "you "
+        },
+        {
+          "start": 160.4435705547898,
+          "end": 160.56357322536184,
+          "text": "in "
+        },
+        {
+          "start": 160.6035741155525,
+          "end": 160.96358212726855,
+          "text": "mind\n"
+        }
+      ]
+    },
+    {
+      "start": 161.22358791350794,
+      "end": 163.92364800137835,
+      "text": "So every song I make, I'm making it for you and I\n",
+      "words": [
+        {
+          "start": 161.22358791350794,
+          "end": 161.38359147427062,
+          "text": "So "
+        },
+        {
+          "start": 161.42359236446129,
+          "end": 161.64359726051,
+          "text": "every "
+        },
+        {
+          "start": 161.72359904089134,
+          "end": 161.98360482713073,
+          "text": "song "
+        },
+        {
+          "start": 162.0236057173214,
+          "end": 162.16360883298876,
+          "text": "I "
+        },
+        {
+          "start": 162.18360927808408,
+          "end": 162.36361328394213,
+          "text": "make, "
+        },
+        {
+          "start": 162.4036141741328,
+          "end": 162.54361728980015,
+          "text": "I'm "
+        },
+        {
+          "start": 162.56361773489547,
+          "end": 162.88362485642088,
+          "text": "making "
+        },
+        {
+          "start": 162.92362574661155,
+          "end": 163.02362797208824,
+          "text": "it "
+        },
+        {
+          "start": 163.08362930737422,
+          "end": 163.20363197794626,
+          "text": "for "
+        },
+        {
+          "start": 163.24363286813693,
+          "end": 163.42363687399495,
+          "text": "you "
+        },
+        {
+          "start": 163.46363776418562,
+          "end": 163.60364087985297,
+          "text": "and "
+        },
+        {
+          "start": 163.64364177004364,
+          "end": 163.92364800137835,
+          "text": "I\n"
+        }
+      ]
+    },
+    {
+      "start": 164.2036542327131,
+      "end": 166.5037054186768,
+      "text": "Tried to write you a song just the other day\n",
+      "words": [
+        {
+          "start": 164.2036542327131,
+          "end": 164.40365868366644,
+          "text": "Tried "
+        },
+        {
+          "start": 164.42365912876178,
+          "end": 164.50366090914312,
+          "text": "to "
+        },
+        {
+          "start": 164.5436617993338,
+          "end": 164.74366625028716,
+          "text": "write "
+        },
+        {
+          "start": 164.78366714047783,
+          "end": 164.90366981104987,
+          "text": "you "
+        },
+        {
+          "start": 164.96367114633586,
+          "end": 165.00367203652655,
+          "text": "a "
+        },
+        {
+          "start": 165.1036742620032,
+          "end": 165.44368182862394,
+          "text": "song "
+        },
+        {
+          "start": 165.50368316390995,
+          "end": 165.72368805995865,
+          "text": "just "
+        },
+        {
+          "start": 165.76368895014932,
+          "end": 165.9036920658167,
+          "text": "the "
+        },
+        {
+          "start": 165.9636934011027,
+          "end": 166.20369874224673,
+          "text": "other "
+        },
+        {
+          "start": 166.26370007753275,
+          "end": 166.5037054186768,
+          "text": "day\n"
+        }
+      ]
+    },
+    {
+      "start": 166.86371343039283,
+      "end": 169.5237726280726,
+      "text": "A song about me and you, all I could think to say\n",
+      "words": [
+        {
+          "start": 166.86371343039283,
+          "end": 166.94371521077417,
+          "text": "A "
+        },
+        {
+          "start": 167.02371699115554,
+          "end": 167.2837227773949,
+          "text": "song "
+        },
+        {
+          "start": 167.32372366758557,
+          "end": 167.7237325694923,
+          "text": "about "
+        },
+        {
+          "start": 167.78373390477833,
+          "end": 167.943737465541,
+          "text": "me "
+        },
+        {
+          "start": 167.98373835573167,
+          "end": 168.06374013611304,
+          "text": "and "
+        },
+        {
+          "start": 168.12374147139903,
+          "end": 168.3237459223524,
+          "text": "you, "
+        },
+        {
+          "start": 168.36374681254307,
+          "end": 168.52375037330577,
+          "text": "all "
+        },
+        {
+          "start": 168.56375126349644,
+          "end": 168.64375304387778,
+          "text": "I "
+        },
+        {
+          "start": 168.68375393406848,
+          "end": 168.82375704973583,
+          "text": "could "
+        },
+        {
+          "start": 168.8637579399265,
+          "end": 169.04376194578452,
+          "text": "think "
+        },
+        {
+          "start": 169.0837628359752,
+          "end": 169.20376550654723,
+          "text": "to "
+        },
+        {
+          "start": 169.26376684183322,
+          "end": 169.5237726280726,
+          "text": "say\n"
+        }
+      ]
+    },
+    {
+      "start": 169.84377974959799,
+      "end": 170.6637979985068,
+      "text": "But this is love\n\n",
+      "words": [
+        {
+          "start": 169.84377974959799,
+          "end": 170.0037833103607,
+          "text": "But "
+        },
+        {
+          "start": 170.04378420055136,
+          "end": 170.20378776131403,
+          "text": "this "
+        },
+        {
+          "start": 170.26378909660005,
+          "end": 170.38379176717208,
+          "text": "is "
+        },
+        {
+          "start": 170.42379265736275,
+          "end": 170.6637979985068,
+          "text": "love\n\n"
+        }
+      ]
+    },
+    {
+      "start": 170.70379888869746,
+      "end": 175.56390704686424,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 170.70379888869746,
+          "end": 170.7838006690788,
+          "text": "This "
+        },
+        {
+          "start": 170.80380111417415,
+          "end": 170.8838028945555,
+          "text": "is "
+        },
+        {
+          "start": 170.9438042298415,
+          "end": 171.4238149121296,
+          "text": "love, "
+        },
+        {
+          "start": 171.48381624741558,
+          "end": 171.64381980817828,
+          "text": "it's "
+        },
+        {
+          "start": 171.7038211434643,
+          "end": 172.18383182575235,
+          "text": "love, "
+        },
+        {
+          "start": 172.22383271594305,
+          "end": 172.38383627670572,
+          "text": "it's "
+        },
+        {
+          "start": 172.4238371668964,
+          "end": 172.92384829427982,
+          "text": "love, "
+        },
+        {
+          "start": 172.9638491844705,
+          "end": 173.1238527452332,
+          "text": "it's "
+        },
+        {
+          "start": 173.16385363542386,
+          "end": 173.58386298242593,
+          "text": "love, "
+        },
+        {
+          "start": 173.6838652079026,
+          "end": 173.9038701039513,
+          "text": "it's "
+        },
+        {
+          "start": 173.96387143923732,
+          "end": 175.56390704686424,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 176.4839275212497,
+      "end": 181.5640405754652,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 176.4839275212497,
+          "end": 176.64393108201241,
+          "text": "This "
+        },
+        {
+          "start": 176.70393241729843,
+          "end": 176.8639359780611,
+          "text": "is "
+        },
+        {
+          "start": 176.92393731334712,
+          "end": 177.4039479956352,
+          "text": "love, "
+        },
+        {
+          "start": 177.46394933092122,
+          "end": 177.6239528916839,
+          "text": "it's "
+        },
+        {
+          "start": 177.68395422696992,
+          "end": 178.163964909258,
+          "text": "love, "
+        },
+        {
+          "start": 178.223966244544,
+          "end": 178.36396936021134,
+          "text": "it's "
+        },
+        {
+          "start": 178.42397069549736,
+          "end": 178.9239818228808,
+          "text": "love, "
+        },
+        {
+          "start": 178.98398315816678,
+          "end": 179.12398627383413,
+          "text": "it's "
+        },
+        {
+          "start": 179.18398760912015,
+          "end": 179.46399384045486,
+          "text": "love, "
+        },
+        {
+          "start": 179.52399517574088,
+          "end": 179.90400363255227,
+          "text": "it's "
+        },
+        {
+          "start": 179.94400452274294,
+          "end": 181.5640405754652,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 182.50406149494603,
+      "end": 185.20412158281647,
+      "text": "Now this love is far from perfect\n",
+      "words": [
+        {
+          "start": 182.50406149494603,
+          "end": 182.62406416551804,
+          "text": "Now "
+        },
+        {
+          "start": 182.6640650557087,
+          "end": 182.86406950666208,
+          "text": "this "
+        },
+        {
+          "start": 182.9240708419481,
+          "end": 183.40408152423618,
+          "text": "love "
+        },
+        {
+          "start": 183.46408285952216,
+          "end": 183.5840855300942,
+          "text": "is "
+        },
+        {
+          "start": 183.64408686538022,
+          "end": 184.12409754766827,
+          "text": "far "
+        },
+        {
+          "start": 184.16409843785897,
+          "end": 184.344102443717,
+          "text": "from "
+        },
+        {
+          "start": 184.40410377900298,
+          "end": 185.20412158281647,
+          "text": "perfect\n"
+        }
+      ]
+    },
+    {
+      "start": 185.52412870434185,
+      "end": 188.32419101768895,
+      "text": "But this love, it leaves me worthless\n",
+      "words": [
+        {
+          "start": 185.52412870434185,
+          "end": 185.6641318200092,
+          "text": "But "
+        },
+        {
+          "start": 185.68413226510452,
+          "end": 185.90413716115324,
+          "text": "this "
+        },
+        {
+          "start": 185.9441380513439,
+          "end": 186.46414962382266,
+          "text": "love, "
+        },
+        {
+          "start": 186.50415051401333,
+          "end": 186.6441536296807,
+          "text": "it "
+        },
+        {
+          "start": 186.68415451987136,
+          "end": 187.16416520215944,
+          "text": "leaves "
+        },
+        {
+          "start": 187.2041660923501,
+          "end": 187.40417054330348,
+          "text": "me "
+        },
+        {
+          "start": 187.44417143349415,
+          "end": 188.32419101768895,
+          "text": "worthless\n"
+        }
+      ]
+    },
+    {
+      "start": 188.52419546864232,
+      "end": 193.58430807776247,
+      "text": "So now all that I can say is this is love\n\n",
+      "words": [
+        {
+          "start": 188.52419546864232,
+          "end": 188.66419858430967,
+          "text": "So "
+        },
+        {
+          "start": 188.70419947450034,
+          "end": 188.94420481564438,
+          "text": "now "
+        },
+        {
+          "start": 189.0042061509304,
+          "end": 189.4442159430278,
+          "text": "all "
+        },
+        {
+          "start": 189.46421638812313,
+          "end": 189.7642230645532,
+          "text": "that "
+        },
+        {
+          "start": 189.8242243998392,
+          "end": 190.1442315213646,
+          "text": "I "
+        },
+        {
+          "start": 190.2042328566506,
+          "end": 190.36423641741328,
+          "text": "can "
+        },
+        {
+          "start": 190.4242377526993,
+          "end": 190.82424665460601,
+          "text": "say "
+        },
+        {
+          "start": 190.8642475447967,
+          "end": 191.12425333103607,
+          "text": "is "
+        },
+        {
+          "start": 191.1842546663221,
+          "end": 191.44426045256145,
+          "text": "this "
+        },
+        {
+          "start": 191.78426801918218,
+          "end": 191.9042706897542,
+          "text": "is "
+        },
+        {
+          "start": 191.94427157994488,
+          "end": 193.58430807776247,
+          "text": "love\n\n"
+        }
+      ]
+    },
+    {
+      "start": 194.5243289972433,
+      "end": 197.50439531644844,
+      "text": "Now I can sing you a song, or write you a rhyme\n",
+      "words": [
+        {
+          "start": 194.5243289972433,
+          "end": 194.684332558006,
+          "text": "Now "
+        },
+        {
+          "start": 194.74433389329198,
+          "end": 194.84433611876867,
+          "text": "I "
+        },
+        {
+          "start": 194.88433700895933,
+          "end": 195.0843414599127,
+          "text": "can "
+        },
+        {
+          "start": 195.16434324029404,
+          "end": 195.4043485814381,
+          "text": "sing "
+        },
+        {
+          "start": 195.44434947162878,
+          "end": 195.54435169710544,
+          "text": "you "
+        },
+        {
+          "start": 195.60435303239146,
+          "end": 195.7443561480588,
+          "text": "a "
+        },
+        {
+          "start": 195.80435748334483,
+          "end": 196.18436594015623,
+          "text": "song, "
+        },
+        {
+          "start": 196.42437128130027,
+          "end": 196.56437439696762,
+          "text": "or "
+        },
+        {
+          "start": 196.58437484206294,
+          "end": 196.80437973811166,
+          "text": "write "
+        },
+        {
+          "start": 196.82438018320698,
+          "end": 196.94438285377902,
+          "text": "you "
+        },
+        {
+          "start": 196.9843837439697,
+          "end": 197.1043864145417,
+          "text": "a "
+        },
+        {
+          "start": 197.1643877498277,
+          "end": 197.50439531644844,
+          "text": "rhyme\n"
+        }
+      ]
+    },
+    {
+      "start": 197.7644011026878,
+      "end": 199.90444872788882,
+      "text": "But I just can't find the words\n",
+      "words": [
+        {
+          "start": 197.7644011026878,
+          "end": 197.88440377325983,
+          "text": "But "
+        },
+        {
+          "start": 197.90440421835515,
+          "end": 198.0444073340225,
+          "text": "I "
+        },
+        {
+          "start": 198.10440866930853,
+          "end": 198.40441534573858,
+          "text": "just "
+        },
+        {
+          "start": 198.4644166810246,
+          "end": 198.7444229123593,
+          "text": "can't "
+        },
+        {
+          "start": 198.844425137836,
+          "end": 199.16443225936138,
+          "text": "find "
+        },
+        {
+          "start": 199.20443314955205,
+          "end": 199.32443582012405,
+          "text": "the "
+        },
+        {
+          "start": 199.38443715541007,
+          "end": 199.90444872788882,
+          "text": "words\n"
+        }
+      ]
+    },
+    {
+      "start": 200.34445851998623,
+      "end": 203.52452929014473,
+      "text": "I done tried to write you a song a thousand times\n",
+      "words": [
+        {
+          "start": 200.34445851998623,
+          "end": 200.44446074546292,
+          "text": "I "
+        },
+        {
+          "start": 200.4844616356536,
+          "end": 200.6644656415116,
+          "text": "done "
+        },
+        {
+          "start": 200.70446653170228,
+          "end": 200.90447098265565,
+          "text": "tried "
+        },
+        {
+          "start": 200.94447187284632,
+          "end": 201.06447454341833,
+          "text": "to "
+        },
+        {
+          "start": 201.10447543360903,
+          "end": 201.40448211003905,
+          "text": "write "
+        },
+        {
+          "start": 201.44448300022972,
+          "end": 201.6444874511831,
+          "text": "you "
+        },
+        {
+          "start": 201.68448834137376,
+          "end": 201.7044887864691,
+          "text": "a "
+        },
+        {
+          "start": 201.82449145704112,
+          "end": 202.1844994687572,
+          "text": "song "
+        },
+        {
+          "start": 202.4045043648059,
+          "end": 202.52450703537792,
+          "text": "a "
+        },
+        {
+          "start": 202.5645079255686,
+          "end": 203.10451994314266,
+          "text": "thousand "
+        },
+        {
+          "start": 203.16452127842868,
+          "end": 203.52452929014473,
+          "text": "times\n"
+        }
+      ]
+    },
+    {
+      "start": 203.5645301803354,
+      "end": 205.9045822564898,
+      "text": "But in my mind, this is all I heard\n\n",
+      "words": [
+        {
+          "start": 203.5645301803354,
+          "end": 203.68453285090743,
+          "text": "But "
+        },
+        {
+          "start": 203.7245337410981,
+          "end": 203.84453641167013,
+          "text": "in "
+        },
+        {
+          "start": 203.8845373018608,
+          "end": 204.06454130771883,
+          "text": "my "
+        },
+        {
+          "start": 204.12454264300484,
+          "end": 204.42454931943487,
+          "text": "mind, "
+        },
+        {
+          "start": 204.44454976453022,
+          "end": 204.6445542154836,
+          "text": "this "
+        },
+        {
+          "start": 204.70455555076958,
+          "end": 204.80455777624627,
+          "text": "is "
+        },
+        {
+          "start": 204.84455866643694,
+          "end": 205.08456400758098,
+          "text": "all "
+        },
+        {
+          "start": 205.144565342867,
+          "end": 205.32456934872502,
+          "text": "I "
+        },
+        {
+          "start": 205.38457068401104,
+          "end": 205.9045822564898,
+          "text": "heard\n\n"
+        }
+      ]
+    },
+    {
+      "start": 206.50459560934988,
+      "end": 211.58470866356538,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 206.50459560934988,
+          "end": 206.66459917011258,
+          "text": "This "
+        },
+        {
+          "start": 206.7246005053986,
+          "end": 206.88460406616127,
+          "text": "is "
+        },
+        {
+          "start": 206.9446054014473,
+          "end": 207.42461608373537,
+          "text": "love, "
+        },
+        {
+          "start": 207.48461741902136,
+          "end": 207.64462097978407,
+          "text": "it's "
+        },
+        {
+          "start": 207.7246227601654,
+          "end": 208.18463299735816,
+          "text": "love, "
+        },
+        {
+          "start": 208.22463388754883,
+          "end": 208.3846374483115,
+          "text": "it's "
+        },
+        {
+          "start": 208.4246383385022,
+          "end": 208.9246494658856,
+          "text": "love, "
+        },
+        {
+          "start": 208.96465035607628,
+          "end": 209.12465391683898,
+          "text": "it's "
+        },
+        {
+          "start": 209.16465480702965,
+          "end": 209.66466593441305,
+          "text": "love, "
+        },
+        {
+          "start": 209.72466726969907,
+          "end": 209.88467083046177,
+          "text": "it's "
+        },
+        {
+          "start": 209.94467216574776,
+          "end": 211.58470866356538,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 212.4847286928555,
+      "end": 217.564841747071,
+      "text": "This is love, it's love, it's love, it's love, it's love\n",
+      "words": [
+        {
+          "start": 212.4847286928555,
+          "end": 212.6447322536182,
+          "text": "This "
+        },
+        {
+          "start": 212.70473358890422,
+          "end": 212.8647371496669,
+          "text": "is "
+        },
+        {
+          "start": 212.94473893004826,
+          "end": 213.42474961233634,
+          "text": "love, "
+        },
+        {
+          "start": 213.464750502527,
+          "end": 213.62475406328969,
+          "text": "it's "
+        },
+        {
+          "start": 213.6847553985757,
+          "end": 214.16476608086379,
+          "text": "love, "
+        },
+        {
+          "start": 214.2247674161498,
+          "end": 214.36477053181716,
+          "text": "it's "
+        },
+        {
+          "start": 214.42477186710315,
+          "end": 214.92478299448658,
+          "text": "love, "
+        },
+        {
+          "start": 214.98478432977257,
+          "end": 215.12478744543995,
+          "text": "it's "
+        },
+        {
+          "start": 215.18478878072594,
+          "end": 215.66479946301402,
+          "text": "love, "
+        },
+        {
+          "start": 215.72480079830004,
+          "end": 215.90480480415806,
+          "text": "it's "
+        },
+        {
+          "start": 215.94480569434873,
+          "end": 217.564841747071,
+          "text": "love\n"
+        }
+      ]
+    },
+    {
+      "start": 218.50486266655182,
+      "end": 221.22492319951758,
+      "text": "Now this love is far from perfect\n",
+      "words": [
+        {
+          "start": 218.50486266655182,
+          "end": 218.64486578221917,
+          "text": "Now "
+        },
+        {
+          "start": 218.68486667240984,
+          "end": 218.8848711233632,
+          "text": "this "
+        },
+        {
+          "start": 218.94487245864923,
+          "end": 219.42488314093728,
+          "text": "love "
+        },
+        {
+          "start": 219.46488403112798,
+          "end": 219.60488714679533,
+          "text": "is "
+        },
+        {
+          "start": 219.66488848208132,
+          "end": 220.12489871927409,
+          "text": "far "
+        },
+        {
+          "start": 220.16489960946475,
+          "end": 220.34490361532278,
+          "text": "from "
+        },
+        {
+          "start": 220.4049049506088,
+          "end": 221.22492319951758,
+          "text": "perfect\n"
+        }
+      ]
+    },
+    {
+      "start": 221.52492987594763,
+      "end": 225.30501399896625,
+      "text": "But this love, it leaves me worthless\n",
+      "words": [
+        {
+          "start": 221.52492987594763,
+          "end": 221.664932991615,
+          "text": "But "
+        },
+        {
+          "start": 221.68493343671034,
+          "end": 221.88493788766368,
+          "text": "this "
+        },
+        {
+          "start": 221.9449392229497,
+          "end": 222.46495079542845,
+          "text": "love, "
+        },
+        {
+          "start": 222.52495213071447,
+          "end": 222.66495524638182,
+          "text": "it "
+        },
+        {
+          "start": 222.68495569147714,
+          "end": 223.18496681886057,
+          "text": "leaves "
+        },
+        {
+          "start": 223.22496770905124,
+          "end": 223.38497126981392,
+          "text": "me "
+        },
+        {
+          "start": 223.44497260509993,
+          "end": 225.30501399896625,
+          "text": "worthless\n"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "en"
+  }
+}

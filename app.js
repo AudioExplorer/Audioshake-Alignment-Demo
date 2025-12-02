@@ -9,7 +9,8 @@ const state = {
     theme: localStorage.getItem('theme') || 'light',
     displaySidebar: true,
     selectedAlignmentJSON: null,
-    editingSelectedAlignment: false
+    editingSelectedAlignment: false,
+    isDemo: false
 };
 
 // DOM Elements
@@ -471,37 +472,28 @@ function loadNewAssetFromSource() {
 }
 
 
-function loadDemoAssets() {
+async function loadDemoAssets() {
+    state.isDemo = true
+
     const demoData = {
         "assets": [
             {
-                "src": "https://demos.spatial-explorer.com/demo-assets/surfing.mp4",
-                "title": "surfing.mp4",
-                "format": "video/mp4",
+                "src": "https://demos.spatial-explorer.com/demo-assets/Wordless.wav",
+                "title": "Wordless.wav",
+                "format": "audio/wav",
                 "expiry": null
             },
-            {
-                "src": "https://demos.spatial-explorer.com/demo-assets/Wordless.mp4",
-                "title": "Wordless.mp4",
-                "format": "video/mp4",
-                "expiry": null
-            },
-            {
-                "src": "https://demos.spatial-explorer.com/demo-assets/Andrew-Bundy-Promo-HD.mp4",
-                "title": "Andrew-Bundy-Promo-HD.mp4",
-                "format": "video/mp4",
-                "expiry": null
-            }
         ]
     };
     loadAssets(demoData.assets);
 }
 
-function loadAssets(assets) {
+async function loadAssets(assets) {
     state.assets = assets;
     renderAssets();
     elements.assetsSection.style.display = 'block';
     showToast(`Loaded ${assets.length} assets`);
+    loadAlignments()
 }
 
 function renderAssets() {
@@ -531,7 +523,6 @@ function getFormatLabel(format) {
 function selectAsset(index) {
     clearAlignments()
     state.selectedAsset = state.assets[index];
-
     // todo update the alignment filter to be fuzzy 
     elements.filterSource.value = state.selectedAsset.title.split(".")[0]
 
@@ -541,10 +532,13 @@ function selectAsset(index) {
 
     loadMedia(state.selectedAsset);
     elements.playerSection.style.display = 'block';
-    loadAlignments();
+    if (!isVideo) {
+        loadAlignments();
+    }
+
 }
 
-function loadMedia(asset) {
+async function loadMedia(asset) {
     const isVideo = asset.format.includes('video');
 
     if (isVideo) {
@@ -557,6 +551,15 @@ function loadMedia(asset) {
         elements.audioPlayer.style.display = 'block';
         elements.mediaPlayer.style.display = 'none';
         state.currentMedia = elements.audioPlayer;
+    }
+
+    if (state.isDemo) {
+        // toggleAlignmentTools(show)
+        const res = await fetch("./alignment-wordless.json");
+        const data = await res.json();
+        // console.log(data.lines)
+        state.selectedAlignmentJSON = data
+        renderLyrics(data);
     }
 }
 
@@ -599,6 +602,7 @@ async function createAlignment() {
 }
 
 async function loadAlignments() {
+
     if (!api.hasAPIKey()) return;
 
     const skip = parseInt(elements.skipInput.value) || 0;
@@ -795,15 +799,19 @@ async function loadAlignmentData(alignmentUrl) {
     try {
         toggleAlignmentTools(true)
         addDebugEntry({ info: `Fetching alignment from: ${alignmentUrl}` }, 'info');
+
+        // normal fetch
         const data = await api.fetchAlignment(alignmentUrl);
         addDebugEntry({ success: 'Alignment data loaded', structure: Object.keys(data) }, 'success');
         renderLyrics(data);
+
     } catch (err) {
         if (String(err).includes('403')) {
             showToast(
                 'Alignment data is no longer available. Results are only stored for 72 hours — please re-run the alignment.');
         } else {
             showToast(`Error loading alignment: ${err}`);
+
         }
 
         console.error(err);
